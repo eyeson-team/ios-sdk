@@ -5,7 +5,7 @@
 A webservice to host and maintain eyeson meetings is required.
 The eyeson iOS SDK acts as communication client for a valid meeting room *accessKey* or *guestToken*.
 The respective keys can be obtained in exchange for an API key.
-See API documentation at [eyeson developers](https://www.eyeson.com/developers).
+See API documentation at [eyeson developers](https://developers.eyeson.team/).
 
 ## Installation
 
