@@ -49,9 +49,9 @@ class EyesonCoordinator: ObservableObject {
         meeting?.leave()
     }
     
-    private func didJoin(_ meeting: EyesonMeeting?, _ error: Error?) {
+    private func didJoin(_ meeting: EyesonMeeting?, _ terminated: Eyeson.Event.Terminated?) {
         isLoading = false
-        guard let meeting = meeting, error == nil else { return }
+        guard let meeting = meeting, terminated == nil else { return }
         messages.append(LogView.Message(primaryInfo: "State", secondaryInfo: "Room ready"))
         self.meeting = meeting
         self.meeting?.delegate = self

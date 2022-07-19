@@ -28,12 +28,12 @@ import Eyeson
 
 ```swift
 // Join meeting with accessKey
-Eyeson.shared.join(accessKey) { meeting, error in
-  // returns a running meeting instance
+Eyeson.shared.join(accessKey) { meeting, terminated in
+  // returns a running meeting instance or terminated event
 }
 
 // Join meeting with guestToken
-Eyeson.shared.join(guestToken, name: "Guest Name") { meeting, error in
+Eyeson.shared.join(guestToken, name: "Guest Name") { meeting, terminated in
   // ...
 }
 ```
