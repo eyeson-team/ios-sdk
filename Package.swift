@@ -12,13 +12,13 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Eyeson",
-            targets: ["Eyeson"]),
+            targets: ["Eyeson"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git"),
+        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", .branch("master")),
         .package(url: "https://github.com/daltoniam/Starscream", from: "3.1.0"),
-        .package(url: "https://github.com/alexpiezo/WebRTC.git"),
+        .package(url: "https://github.com/alexpiezo/WebRTC.git", .branch("master"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
