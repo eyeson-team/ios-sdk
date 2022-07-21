@@ -182,6 +182,7 @@ struct Stats: EyesonEvent {
 
 ```swift
 enum TerminateReason {
+    case locked
     case unwanted
     case busy
     case declined
