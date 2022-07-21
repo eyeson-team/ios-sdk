@@ -1,4 +1,5 @@
 .DS_Store
+.swiftpm
 Eyeson.podspec
 Eyeson.framework/Development.plist
 Eyeson.framework/Staging.plist
