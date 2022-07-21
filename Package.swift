@@ -18,7 +18,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", .branch("master")),
         .package(url: "https://github.com/daltoniam/Starscream", from: "3.1.0"),
-        .package(url: "https://github.com/alexpiezo/WebRTC.git", .branch("master"))
+        .package(url: "https://github.com/livekit/WebRTC-swift", .branch("master"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
