@@ -21,7 +21,7 @@ To run the example app, clone the repo, and run `pod install` from the ExampleAp
 ## Usage
 
 ```swift
-import EyesonSdk
+import Eyeson
 ```
 
 ### Join a meeting room
