@@ -8,34 +8,6 @@
 		<data>
 		gWoomiy/0QbdGG/bcLafPx1SOlE=
 		</data>
-		<key>Frameworks/Pods_EyesonSdk.framework/Info.plist</key>
-		<data>
-		t3jdPsLMWkinUHxIXx0McqJts8U=
-		</data>
-		<key>Frameworks/Pods_EyesonSdk.framework/Pods_EyesonSdk</key>
-		<data>
-		ZxkXR8foA44GZD2EKXWNTPFou6s=
-		</data>
-		<key>Frameworks/Pods_EyesonSdk.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		OQgSZ2dE0WJ/NGx0+eMwR9OQ1+Y=
-		</data>
-		<key>Frameworks/Pods_EyesonSdk.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		X7+vrwL/v0r4OpDccNNK/ws30ww=
-		</data>
-		<key>Frameworks/Pods_EyesonSdk.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		m1uPvz/ordwr3GA4lDAMFKM5aIQ=
-		</data>
-		<key>Frameworks/Pods_EyesonSdk.framework/_CodeSignature/CodeResources</key>
-		<data>
-		sxV3bQMMMEcruO7gviKpIggmtbo=
-		</data>
-		<key>Frameworks/Pods_EyesonSdk.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		+1RKSMz3UOotZS4YW0VIF9FE9lE=
-		</data>
 		<key>Headers/EyesonSdk-Swift.h</key>
 		<data>
 		rdGuA9o4p/kzoWulT8cCB1irXUM=
@@ -84,55 +56,6 @@
 			<key>hash2</key>
 			<data>
 			b9/mBmK5FX5V8d35Cah7Bt4Rc9gAPl9MGECKT6vEtUQ=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_EyesonSdk.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2Hn6SgTJ3fXjVix8cRDLTohSp5w1Kw17wksQol/9L9g=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_EyesonSdk.framework/Pods_EyesonSdk</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eZWp6j7zKr7H3fISXONFR1WEnWu4gBnq1MO5mPSVTEc=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_EyesonSdk.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8+CF4oeD4lP4N6kxmLN3m47ULDI8Enn8h6aSOtoz8Tw=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_EyesonSdk.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Z74wXqbJzprX5OHll0G5voDU+vLvosmoQ16k5V222LE=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_EyesonSdk.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+KRcdpK0RdV7ypTrmqe+trZ/ZCfJjXOLwQGRLl3kIjc=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_EyesonSdk.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vzSs7YKMbV8lflFY1z2qOenS/pvQY6lqXVxwmddi8LU=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_EyesonSdk.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3RMMHRpGwglrTjC+cVjg1xP/lAB5XC+Yy3Eo3N2YEd4=
 			</data>
 		</dict>
 		<key>Headers/EyesonSdk-Swift.h</key>
