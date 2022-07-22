@@ -1,7 +1,8 @@
 .DS_Store
 .swiftpm
 Eyeson.podspec
-Eyeson.framework/Development.plist
-Eyeson.framework/Staging.plist
+Sources/EyesonSdk.xcframework/ios-arm64/EyesonSdk.framework/Development.plist
+Sources/EyesonSdk.xcframework/ios-arm64/EyesonSdk.framework/Staging.plist
+ExampleApp
 
 
