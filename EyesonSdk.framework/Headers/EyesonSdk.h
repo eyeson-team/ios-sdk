@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 
 //! Project version number for Eyeson.
-FOUNDATION_EXPORT double EyesonVersionNumber;
+FOUNDATION_EXPORT double EyesonSdkVersionNumber;
 
 //! Project version string for Eyeson.
-FOUNDATION_EXPORT const unsigned char EyesonVersionString[];
+FOUNDATION_EXPORT const unsigned char EyesonSdkVersionString[];
