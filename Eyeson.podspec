@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'PRODUCT_BUNDLE_IDENTIFIER': 'com.eyeson.sdk',
     'ENABLE_BITCODE': 'NO',
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]': 'x86_64'
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]': 'arm64'
   }
   s.user_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]': 'x86_64'
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]': 'arm64'
   }
   s.source = { :git => "git@github.com:eyeson-team/ios-sdk.git", :tag => s.version }
   s.public_header_files = "EyesonSdk.framework/Headers/*.h"
