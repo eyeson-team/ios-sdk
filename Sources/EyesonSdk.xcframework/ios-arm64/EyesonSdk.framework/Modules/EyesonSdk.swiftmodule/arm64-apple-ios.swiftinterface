@@ -1,0 +1,242 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name EyesonSdk
+import AVFoundation
+@_exported import EyesonSdk
+import Foundation
+import Starscream
+import Swift
+import SwiftyJSON
+import UIKit
+import WebRTC
+import _Concurrency
+public struct TurnServer : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension EyesonSdk.Eyeson {
+  public enum Device {
+    case audio
+    case video
+    public static func == (a: EyesonSdk.Eyeson.Device, b: EyesonSdk.Eyeson.Device) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public struct Event {
+  }
+  public enum TerminateReason : Swift.Int {
+    case unwanted
+    case busy
+    case declined
+    case terminated
+    case gone
+    case locked
+    case other
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+}
+public protocol EyesonEvent {
+}
+extension EyesonSdk.Eyeson.Event {
+  public struct Setup : EyesonSdk.EyesonEvent {
+    public var locked: Swift.Bool
+    public var recording: EyesonSdk.Eyeson.Event.Recording?
+    public var snapshots: [EyesonSdk.Eyeson.Event.Snapshots.Item]?
+    public var broadcasts: [EyesonSdk.Eyeson.Event.Broadcasts.Item]?
+  }
+  public struct Mode : EyesonSdk.EyesonEvent {
+    public var video: Swift.Bool
+    public var p2p: Swift.Bool
+  }
+  public struct Chat : EyesonSdk.EyesonEvent {
+    public var user: EyesonSdk.User
+    public var message: Swift.String
+  }
+  public struct Locked : Swift.Codable, EyesonSdk.EyesonEvent {
+    public var locked: Swift.Bool
+    public func encode(to encoder: Swift.Encoder) throws
+    public init(from decoder: Swift.Decoder) throws
+  }
+  public struct Participants : EyesonSdk.EyesonEvent {
+    public var audio: [EyesonSdk.User]
+    public var video: [EyesonSdk.User]
+    public var presenter: EyesonSdk.User?
+  }
+  public struct Recording : Swift.Codable, Swift.Identifiable, EyesonSdk.EyesonEvent {
+    public var id: Swift.String
+    public var duration: Swift.Double?
+    public var links: EyesonSdk.Eyeson.Event.Recording.Links
+    public var user: EyesonSdk.User
+    public var createdAt: Foundation.Date
+    public struct Links : Swift.Codable {
+      public var download: Foundation.URL?
+      public func encode(to encoder: Swift.Encoder) throws
+      public init(from decoder: Swift.Decoder) throws
+    }
+    public typealias ID = Swift.String
+    public func encode(to encoder: Swift.Encoder) throws
+    public init(from decoder: Swift.Decoder) throws
+  }
+  public struct Voice : EyesonSdk.EyesonEvent {
+    public var user: EyesonSdk.User
+    public var active: Swift.Bool
+  }
+  public struct Muted : Swift.Codable, EyesonSdk.EyesonEvent {
+    public var by: EyesonSdk.User
+    public func encode(to encoder: Swift.Encoder) throws
+    public init(from decoder: Swift.Decoder) throws
+  }
+  public struct Snapshots : Swift.Codable, EyesonSdk.EyesonEvent {
+    public var items: [EyesonSdk.Eyeson.Event.Snapshots.Item]
+    public struct Item : Swift.Codable, Swift.Identifiable {
+      public var id: Swift.String
+      public var name: Swift.String
+      public var links: EyesonSdk.Eyeson.Event.Snapshots.Item.Links
+      public var user: EyesonSdk.User
+      public var createdAt: Foundation.Date
+      public struct Links : Swift.Codable {
+        public var download: Foundation.URL
+        public func encode(to encoder: Swift.Encoder) throws
+        public init(from decoder: Swift.Decoder) throws
+      }
+      public typealias ID = Swift.String
+      public func encode(to encoder: Swift.Encoder) throws
+      public init(from decoder: Swift.Decoder) throws
+    }
+    public func encode(to encoder: Swift.Encoder) throws
+    public init(from decoder: Swift.Decoder) throws
+  }
+  public struct Broadcasts : Swift.Codable, EyesonSdk.EyesonEvent {
+    public var items: [EyesonSdk.Eyeson.Event.Broadcasts.Item]
+    public struct Item : Swift.Codable, Swift.Identifiable {
+      public var id: Swift.String
+      public var platform: Swift.String
+      public var playerUrl: Foundation.URL
+      public var user: EyesonSdk.User
+      public typealias ID = Swift.String
+      public func encode(to encoder: Swift.Encoder) throws
+      public init(from decoder: Swift.Decoder) throws
+    }
+    public func encode(to encoder: Swift.Encoder) throws
+    public init(from decoder: Swift.Decoder) throws
+  }
+  public struct Playback : Swift.Codable, EyesonSdk.EyesonEvent {
+    public var items: [EyesonSdk.Eyeson.Event.Playback.Item]
+    public struct Item : Swift.Codable, Swift.Identifiable {
+      public var id: Swift.String
+      public var name: Swift.String
+      public var url: Foundation.URL
+      public var replacementId: Swift.String
+      public var audio: Swift.Bool
+      public typealias ID = Swift.String
+      public func encode(to encoder: Swift.Encoder) throws
+      public init(from decoder: Swift.Decoder) throws
+    }
+    public func encode(to encoder: Swift.Encoder) throws
+    public init(from decoder: Swift.Decoder) throws
+  }
+  public struct Terminated : EyesonSdk.EyesonEvent {
+    public var reason: EyesonSdk.Eyeson.TerminateReason
+  }
+  public struct Stats : EyesonSdk.EyesonEvent {
+    public var jitter: Swift.Double
+    public var packetLoss: Swift.Double
+    public var roundTripTime: Swift.Double
+    public var nack: Swift.Double
+    public var bitrateSend: Swift.Double
+    public var bitrateReceive: Swift.Double
+    public var status: EyesonSdk.Eyeson.Event.Stats.Status
+    public var bytesSent: Swift.Double
+    public var bytesReceived: Swift.Double
+    public var time: Foundation.TimeInterval
+    public enum Status : Swift.String {
+      case bad
+      case ok
+      case good
+      case unknown
+      public init?(rawValue: Swift.String)
+      public typealias RawValue = Swift.String
+      public var rawValue: Swift.String {
+        get
+      }
+    }
+  }
+}
+extension Starscream.WebSocketClient {
+  public func subscribe(to token: Swift.String)
+  public func unsubscribe(from token: Swift.String)
+}
+public protocol EyesonDelegate {
+  func eyeson(_ meeting: EyesonSdk.EyesonMeeting, didReceive event: EyesonSdk.EyesonEvent)
+}
+public protocol EyesonMeeting {
+  var delegate: EyesonSdk.EyesonDelegate? { get set }
+  var links: EyesonSdk.Links { get }
+  var localVideoView: UIKit.UIView { get }
+  var remoteVideoView: UIKit.UIView { get }
+  var camera: AVFoundation.AVCaptureDevice.Position { get set }
+  func user(_ id: Swift.String, completion: @escaping (EyesonSdk.User?, Swift.Error?) -> Swift.Void)
+  func mute(_ device: EyesonSdk.Eyeson.Device, _ mute: Swift.Bool)
+  func leave()
+  func stats(completion: @escaping (EyesonSdk.Eyeson.Event.Stats) -> Swift.Void)
+}
+public struct Links : Swift.Codable {
+  public var guestLink: Foundation.URL
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum Environment : Swift.String {
+  case development
+  case staging
+  case production
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol EyesonSDK {
+  var environment: EyesonSdk.Environment { get set }
+  func join(_ accessKey: Swift.String, completion: @escaping (EyesonSdk.EyesonMeeting?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  func join(_ accessKey: Swift.String, video: Swift.Bool, completion: @escaping (EyesonSdk.EyesonMeeting?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  func join(_ guestToken: Swift.String, name: Swift.String, completion: @escaping (EyesonSdk.EyesonMeeting?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  func join(_ guestToken: Swift.String, name: Swift.String, video: Swift.Bool, completion: @escaping (EyesonSdk.EyesonMeeting?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+}
+@_hasMissingDesignatedInitializers public class Eyeson : EyesonSdk.EyesonSDK {
+  public var environment: EyesonSdk.Environment
+  public static var shared: EyesonSdk.EyesonSDK
+  public func join(_ accessKey: Swift.String, completion: @escaping (EyesonSdk.EyesonMeeting?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  public func join(_ guestToken: Swift.String, name: Swift.String, completion: @escaping (EyesonSdk.EyesonMeeting?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  public func join(_ accessKey: Swift.String, video: Swift.Bool, completion: @escaping (EyesonSdk.EyesonMeeting?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  public func join(_ guestToken: Swift.String, name: Swift.String, video: Swift.Bool, completion: @escaping (EyesonSdk.EyesonMeeting?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  @objc deinit
+}
+public struct User : Swift.Codable {
+  public var id: Swift.String
+  public var name: Swift.String
+  public var avatar: Foundation.URL?
+  public var guest: Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Signaling : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension EyesonSdk.Eyeson.Device : Swift.Equatable {}
+extension EyesonSdk.Eyeson.Device : Swift.Hashable {}
+extension EyesonSdk.Eyeson.TerminateReason : Swift.Equatable {}
+extension EyesonSdk.Eyeson.TerminateReason : Swift.Hashable {}
+extension EyesonSdk.Eyeson.TerminateReason : Swift.RawRepresentable {}
+extension EyesonSdk.Eyeson.Event.Stats.Status : Swift.Equatable {}
+extension EyesonSdk.Eyeson.Event.Stats.Status : Swift.Hashable {}
+extension EyesonSdk.Eyeson.Event.Stats.Status : Swift.RawRepresentable {}
+extension EyesonSdk.Environment : Swift.Equatable {}
+extension EyesonSdk.Environment : Swift.Hashable {}
+extension EyesonSdk.Environment : Swift.RawRepresentable {}
