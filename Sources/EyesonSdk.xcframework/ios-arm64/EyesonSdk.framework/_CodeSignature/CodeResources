@@ -20,10 +20,6 @@
 		<data>
 		mOphaTLN3QVV2YVvm35f+eP1XDA=
 		</data>
-		<key>Modules/EyesonSdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		x8+UtCj38sj5aMGjzigl168byFc=
-		</data>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		KO0nlZ/zwknjxFHG00qd/T2wJWg=
@@ -34,7 +30,7 @@
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		cPe07vvQ/FNbxuvZbGn/WCzM4XQ=
+		BSudq4MzEL0oeVn45nmy2ZE4hkc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,10 +49,6 @@
 	<dict>
 		<key>Development.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gWoomiy/0QbdGG/bcLafPx1SOlE=
-			</data>
 			<key>hash2</key>
 			<data>
 			b9/mBmK5FX5V8d35Cah7Bt4Rc9gAPl9MGECKT6vEtUQ=
@@ -64,10 +56,6 @@
 		</dict>
 		<key>Headers/EyesonSdk-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rdGuA9o4p/kzoWulT8cCB1irXUM=
-			</data>
 			<key>hash2</key>
 			<data>
 			YacEMcpxVqDF8J1G9zF2zwFHLeGHkLWS5J+1DLfi+S4=
@@ -75,32 +63,13 @@
 		</dict>
 		<key>Headers/EyesonSdk.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VZ4qk4IpliW1MVtgrszr4m6qzBI=
-			</data>
 			<key>hash2</key>
 			<data>
 			5qJl3tzYHrxoNqluNM3n1EsqrANkN6z4jeaZJ+kpixo=
 			</data>
 		</dict>
-		<key>Modules/EyesonSdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			x8+UtCj38sj5aMGjzigl168byFc=
-			</data>
-			<key>hash2</key>
-			<data>
-			MujbT7jxvhhPYO5wRwr+FcqywGs3f/TqcN+k6zlF0tk=
-			</data>
-		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KO0nlZ/zwknjxFHG00qd/T2wJWg=
-			</data>
 			<key>hash2</key>
 			<data>
 			+6AREmZVuHGAMFg9NrU0fGls+6cktjn0636vgpV2gOI=
@@ -108,10 +77,6 @@
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NwzLs0EAERnBp1aiIHsU0gyyqsw=
-			</data>
 			<key>hash2</key>
 			<data>
 			v7GF7NQzGqP9lxwuWSXa7e9Biv3HwEu5bgTpi7DWyUc=
@@ -119,21 +84,13 @@
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cPe07vvQ/FNbxuvZbGn/WCzM4XQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			fQojfA6DCcchLy5lLwCGV+b5sM/yGBWbR+zAACRBeOg=
+			nr6OCL76+a4Jp3SfjYH7b5bUOTYNskOiTwtPtIFZhNo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vZWjkeBdOLwZTdcdQEsF23ws9r4=
-			</data>
 			<key>hash2</key>
 			<data>
 			O/Pc9FmrPmIPVBx8HykKNokhsC9l+VhOkmR2Drfbmvw=
@@ -141,10 +98,6 @@
 		</dict>
 		<key>Production.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZoM+ZTZ++bu4bIHz7+9ELT8gZek=
-			</data>
 			<key>hash2</key>
 			<data>
 			8sg4Xl8+sLCOdGG5qwxoy784E0TrSix4F34QO7A2U6Q=
@@ -152,10 +105,6 @@
 		</dict>
 		<key>Staging.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Re76MgYN1HZBrECUtfRcJuskbMI=
-			</data>
 			<key>hash2</key>
 			<data>
 			dQ8Li+Anoz0yjnCIjgG/+EQXsFxuagU1wxpMtYkYvxo=
