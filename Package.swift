@@ -11,12 +11,20 @@ let package = Package(
     products: [
         .library(
             name: "EyesonSdk",
-            targets: ["EyesonSdk"])
+            targets: ["EyesonSdk", "Starscream", "SwiftyJSON"])
     ],
     targets: [
         .binaryTarget(
             name: "EyesonSdk",
             path: "Sources/EyesonSdk.xcframework"
+        ),
+        .binaryTarget(
+            name: "Starscream",
+            path: "Sources/Starscream.xcframework"
+        ),
+        .binaryTarget(
+            name: "SwiftyJSON",
+            path: "Sources/SwiftyJSON.xcframework"
         )
     ]
 )
