@@ -13,6 +13,9 @@ let package = Package(
             name: "EyesonSdk",
             targets: ["EyesonSdk", "Starscream", "SwiftyJSON", "WebRTC"])
     ],
+    dependencies: [
+        .package(url: "https://github.com/alexpiezo/WebRTC.git", .upToNextMajor(from: "1.1.31567"))
+    ],
     targets: [
         .binaryTarget(
             name: "EyesonSdk",
@@ -26,8 +29,5 @@ let package = Package(
             name: "SwiftyJSON",
             path: "Sources/SwiftyJSON.xcframework"
         )
-    ],
-    dependencies: [
-        .package(url: "https://github.com/alexpiezo/WebRTC.git", .upToNextMajor(from: "1.1.31567"))
     ]
 )
