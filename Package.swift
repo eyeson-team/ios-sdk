@@ -8,6 +8,9 @@ let package = Package(
     platforms: [
         .iOS(.v15)
     ],
+    dependencies: [
+        .package(url: "https://github.com/alexpiezo/WebRTC.git", .upToNextMajor(from: "1.1.31567"))
+    ],
     products: [
         .library(
             name: "EyesonSdk",
