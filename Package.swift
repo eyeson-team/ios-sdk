@@ -14,7 +14,7 @@ let package = Package(
     products: [
         .library(
             name: "EyesonSdk",
-            targets: ["EyesonSdk", "Starscream", "SwiftyJSON"])
+            targets: ["EyesonSdk", "Starscream", "SwiftyJSON", "WebRTC"])
     ],
     targets: [
         .binaryTarget(
