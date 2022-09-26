@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.resources =  "EyesonSdk.framework/Production.plist"
   s.vendored_frameworks = "EyesonSdk.framework"
   
-  s.dependency 'Starscream', '3.1.0'
+  s.dependency 'Starscream'
   s.dependency 'SwiftyJSON'
   s.dependency 'GoogleWebRTC'
 
