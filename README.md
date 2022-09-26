@@ -16,6 +16,18 @@ To install, add the following line to your Podfile:
 pod 'Eyeson'
 ```
 
+NOTE: In case you are facing a compiler error related to new Swift Versions, add this to your Podfile as well:
+
+```ruby
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+    end
+  end
+end
+```
+
 To run the example app, clone the repo, and run `pod install` from the ExampleApp directory first.
 
 ## Usage
