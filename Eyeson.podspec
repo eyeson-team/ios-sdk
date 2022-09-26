@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Eyeson"
-  s.version      = "1.0.0"
+  s.version      = "1.0.3"
   s.summary      = "eyeson iOS SDK"
   s.homepage     = "https://www.eyeson.com"
   s.license      = { :type => 'Copyright', :text => "Copyright 2021 Eyeson GmbH"}
