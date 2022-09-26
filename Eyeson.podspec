@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Eyeson"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "eyeson iOS SDK"
   s.homepage     = "https://www.eyeson.com"
   s.license      = { :type => 'Copyright', :text => "Copyright 2021 Eyeson GmbH"}
@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.source = { :git => "git@github.com:eyeson-team/ios-sdk.git", :tag => s.version }
   s.public_header_files = "EyesonSdk.framework/Headers/*.h"
   s.source_files = "EyesonSdk.framework/Headers/*.h"
+  s.resources =  "EyesonSdk.framework/Production.plist"
   s.vendored_frameworks = "EyesonSdk.framework"
   
   s.dependency 'Starscream', '3.1.0'
