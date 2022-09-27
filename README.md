@@ -70,6 +70,12 @@ meeting.mute(.audio, true)
 // Set streaming camera
 meeting.camera = .front // set .back for back camera
 
+// Send a chat emssage
+meeting.send(chat: String)
+
+// Send a custom message
+meeting.send(custom: String)
+
 // Leave meeting
 meeting.leave()
 
@@ -110,6 +116,10 @@ struct Locked: EyesonEvent {
 struct Chat: EyesonEvent {
   var user: User
   var message: String
+}
+
+struct Custom: EyesonEvent {
+  var content: String
 }
 
 struct Participants: EyesonEvent {

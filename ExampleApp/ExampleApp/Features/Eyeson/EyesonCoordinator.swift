@@ -16,6 +16,8 @@ class EyesonCoordinator: ObservableObject {
     @Published var showsLocalVideoView = false
     @Published var isLoading = false
     @Published var isReady = false
+    @Published var audioMuted = false
+    @Published var videoMuted = false
     @Published var messages = [LogView.Message]()
     
     private var meeting: EyesonMeeting?
@@ -75,62 +77,70 @@ extension EyesonCoordinator: EyesonDelegate {
     func eyeson(_ meeting: EyesonMeeting, didReceive event: EyesonEvent) {
         print("Eyeson | didReceive event: \(event)")
         
-        if let setup = event as? Eyeson.Event.Setup {
-            messages.append(LogView.Message(primaryInfo: "Room Setup", secondaryInfo: "\(setup)"))
-            return
-        }
+        switch event {
+        case is Eyeson.Event.Setup:
+            
+            messages.append(LogView.Message(primaryInfo: "Room Setup", secondaryInfo: "\(event)"))
         
-        if let mode = event as? Eyeson.Event.Mode {
+        case is Eyeson.Event.Mode:
+            
+            guard let mode = event as? Eyeson.Event.Mode else { return }
             self.showsLocalVideoView = mode.p2p
             messages.append(LogView.Message(primaryInfo: "Audio only", secondaryInfo: "\(mode.video)"))
             messages.append(LogView.Message(primaryInfo: "P2P", secondaryInfo: "\(mode.p2p)"))
-            return
-        }
         
-        if let _ = event as? Eyeson.Event.Locked {
+        case is Eyeson.Event.Locked:
+            
             messages.append(LogView.Message(primaryInfo: "Meeting locked", secondaryInfo: ""))
-            return
-        }
         
-        if let participants = event as? Eyeson.Event.Participants {
+        case is Eyeson.Event.Participants:
+            
+            guard let participants = event as? Eyeson.Event.Participants else { return }
             messages.append(LogView.Message(primaryInfo: "Audio Participants", secondaryInfo: "\(participants.audio.map({ $0.name }))"))
             messages.append(LogView.Message(primaryInfo: "Video Participants", secondaryInfo: "\(participants.video.map({ $0.name }))"))
             messages.append(LogView.Message(primaryInfo: "Presenter", secondaryInfo: "\(String(describing: participants.presenter?.name))"))
-            return
-        }
         
-        if let recording = event as? Eyeson.Event.Recording {
+        case is Eyeson.Event.Recording:
+            
+            guard let recording = event as? Eyeson.Event.Recording else { return }
             let active = recording.duration == nil && recording.links.download == nil
             messages.append(LogView.Message(primaryInfo: "Recording", secondaryInfo: "active: \(active) - ready: \(recording.links.download != nil)"))
-            return
-        }
         
-        if let snapshots = event as? Eyeson.Event.Snapshots {
+        case is Eyeson.Event.Snapshots:
+            
+            guard let snapshots = event as? Eyeson.Event.Snapshots else { return }
             messages.append(LogView.Message(primaryInfo: "New Snapshot", secondaryInfo: "Total: \(snapshots.items.count)"))
-            return
-        }
         
-        if let voice = event as? Eyeson.Event.Voice {
+        case is Eyeson.Event.Voice:
+            
+            guard let voice = event as? Eyeson.Event.Voice else { return }
             messages.append(LogView.Message(primaryInfo: "Voice Activity", secondaryInfo: "\(voice.user.name) - active: \(voice.active)"))
-            return
-        }
-        
-        if let chat = event as? Eyeson.Event.Chat {
+            
+        case is Eyeson.Event.Chat:
+            
+            guard let chat = event as? Eyeson.Event.Chat else { return }
             let message = LogView.Message(primaryInfo: chat.user.name,
                                           secondaryInfo: chat.message)
             messages.append(message)
-            return
-        }
-        
-        if let muted = event as? Eyeson.Event.Muted {
-            meeting.mute(.video, true)
+            
+        case is Eyeson.Event.Muted:
+            
+            guard let muted = event as? Eyeson.Event.Muted else { return }
+            audioMuted = true
             messages.append(LogView.Message(primaryInfo: "You've got muted", secondaryInfo: "by \(muted.by.name)"))
-            return
-        }
-        
-        if let terminated = event as? Eyeson.Event.Terminated {
+            
+        case is Eyeson.Event.Custom:
+            
+            guard let custom = event as? Eyeson.Event.Custom else { return }
+            messages.append(LogView.Message(primaryInfo: "Custom Message", secondaryInfo: custom.content))
+            
+        case is Eyeson.Event.Terminated:
+            
+            guard let terminated = event as? Eyeson.Event.Terminated else { return }
             messages.append(LogView.Message(primaryInfo: "Dismiss", secondaryInfo: "Reason: \(terminated.reason)"))
             isReady = false
+            
+        default: break
         }
     }
 }

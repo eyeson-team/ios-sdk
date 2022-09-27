@@ -11,9 +11,6 @@ struct EyesonView: View {
     
     @EnvironmentObject var coordinator: EyesonCoordinator
     
-    @State private var audioMuted = false
-    @State private var videoMuted = false
-    
     var body: some View {
         ZStack {
             Color.black
@@ -47,14 +44,14 @@ struct EyesonView: View {
                            maxHeight: 140)
                 
                 HStack(spacing: 32) {
-                    MicButton(isMuted: $audioMuted)
-                        .onChange(of: audioMuted, perform: { mute in
-                            coordinator.mute(.audio, audioMuted)
+                    MicButton(isMuted: $coordinator.audioMuted)
+                        .onChange(of: coordinator.audioMuted, perform: { mute in
+                            coordinator.mute(.audio, coordinator.audioMuted)
                         })
                     
-                    CamButton(isMuted: $videoMuted)
-                        .onChange(of: videoMuted, perform: { mute in
-                            coordinator.mute(.video, videoMuted)
+                    CamButton(isMuted: $coordinator.videoMuted)
+                        .onChange(of: coordinator.videoMuted, perform: { mute in
+                            coordinator.mute(.video, coordinator.videoMuted)
                         })
                     
                     ToggleCamButton(onTap: coordinator.toggleCam)

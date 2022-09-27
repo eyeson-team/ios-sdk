@@ -60,6 +60,11 @@ extension EyesonSdk.Eyeson.Event {
     public var user: EyesonSdk.User
     public var message: Swift.String
   }
+  public struct Custom : Swift.Codable, EyesonSdk.EyesonEvent {
+    public var content: Swift.String
+    public func encode(to encoder: Swift.Encoder) throws
+    public init(from decoder: Swift.Decoder) throws
+  }
   public struct Locked : Swift.Codable, EyesonSdk.EyesonEvent {
     public var locked: Swift.Bool
     public func encode(to encoder: Swift.Encoder) throws
@@ -185,6 +190,8 @@ public protocol EyesonMeeting {
   var camera: AVFoundation.AVCaptureDevice.Position { get set }
   func user(_ id: Swift.String, completion: @escaping (EyesonSdk.User?, Swift.Error?) -> Swift.Void)
   func mute(_ device: EyesonSdk.Eyeson.Device, _ mute: Swift.Bool)
+  func send(chat message: Swift.String)
+  func send(custom content: Swift.String)
   func leave()
   func stats(completion: @escaping (EyesonSdk.Eyeson.Event.Stats) -> Swift.Void)
 }
