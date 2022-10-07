@@ -10,7 +10,13 @@ See API documentation at [eyeson developers](https://developers.eyeson.team/).
 ## Installation
 
 The SDK is available via Swift Package Manager.
+
+- In XCode, go to File > Add Packages
+- Search or enter Package URL: https://github.com/eyeson-team/ios-sdk
+- As Dependency Rule, choose "Up to Next Major Version” or "Exact Version" with "1.0.7"
+
 You will find the example app in the main branch of the [git repository](https://github.com/eyeson-team/ios-sdk).
+The Swift Package is already added as a dependency. In case there occurs an error when building the target, right-click on the package and choose "Update Package".
 
 ## Simulator Runs
 
