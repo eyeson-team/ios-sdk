@@ -10,7 +10,7 @@ See API documentation at [eyeson developers](https://developers.eyeson.team/).
 ## Installation
 
 The SDK is available via Swift Package Manager.
-To run the example app, you can clone the repo and re-attach the frameworks from the Sources directory in the Project Navigator.
+You will find the example app in the main branch of the [git repository](https://github.com/eyeson-team/ios-sdk).
 
 ## Simulator Runs
 
@@ -35,6 +35,10 @@ Eyeson.shared.join(accessKey) { meeting, terminated in
 Eyeson.shared.join(guestToken, name: "Guest Name") { meeting, terminated in
   // ...
 }
+
+// For initial start options, you can make use of the following properties
+// Same is valid for guestToken join
+Eyeson.shared.join(accessKey, video: true, camera: .front, videoMuted: false, audioMuted: false) { _, _ in }
 ```
 
 ### Instance methods
@@ -54,6 +58,9 @@ let remoteVideoView: UIView = meeting.remoteVideoView
 meeting.mute(.video, true) // set false to unmute
 meeting.mute(.audio, true)
 
+// Mute all participants
+meeting.muteAll()
+
 // Set streaming camera
 meeting.camera = .front // set .back for back camera
 
@@ -62,6 +69,9 @@ meeting.send(chat: String)
 
 // Send a custom message
 meeting.send(custom: String)
+
+// Set self as presenter
+meeting.setPresenter(true) // set false to disable
 
 // Leave meeting
 meeting.leave()

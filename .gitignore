@@ -1,6 +1,5 @@
 .DS_Store
 Sources/EyesonSdk.xcframework/ios-arm64/EyesonSdk.framework/Development.plist
 Sources/EyesonSdk.xcframework/ios-arm64/EyesonSdk.framework/Staging.plist
-ExampleApp
 
 
