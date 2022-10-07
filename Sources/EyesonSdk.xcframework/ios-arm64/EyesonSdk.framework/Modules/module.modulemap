@@ -6,6 +6,6 @@ framework module EyesonSdk {
 }
 
 module EyesonSdk.Swift {
-    header "EyesonSdk-Swift.h"
-    requires objc
+  header "EyesonSdk-Swift.h"
+  requires objc
 }
