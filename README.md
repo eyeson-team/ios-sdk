@@ -2,26 +2,33 @@
 
 ## Prerequisites
 
-A webservice to host and maintain eyeson meetings is required.
 The eyeson iOS SDK acts as communication client for a valid meeting room *accessKey* or *guestToken*.
-The respective keys can be obtained in exchange for an API key.
-See API documentation at [eyeson developers](https://developers.eyeson.team/).
+The respective credentials can be obtained from the API with a valid API key.
+Thus, an additional backend webservice to host and maintain eyeson meetings is mandatory from your side.
+See API documentation at [eyeson developers](https://developers.eyeson.team/) for more information.
+
+## Examples
+
+You will find an example app in the main branch of the [git repository](https://github.com/eyeson-team/ios-sdk).
+Install the Swift Package as described above to get everything up and running.
+
+### Simulator Runs
+
+For repository sanity, the WebRTC framework is currently not available for other architectures than arm64.
+That does not allow you to run on Simulator yet. Therefore, you will need to test your implementation on a real device.
 
 ## Installation
 
 The SDK is available via Swift Package Manager.
 
-- In XCode, go to File > Add Packages
+- In Xcode, go to File > Add Packages
 - Search or enter Package URL: https://github.com/eyeson-team/ios-sdk
 - As Dependency Rule, choose "Up to Next Major Version” or "Exact Version" with "1.0.7"
 
-You will find the example app in the main branch of the [git repository](https://github.com/eyeson-team/ios-sdk).
-The Swift Package is already added as a dependency. In case there occurs an error when building the target, right-click on the package and choose "Update Package".
+### Configuration
 
-## Simulator Runs
-
-Since the WebRTC library does not allow to run on Simulator devices yet, 
-you will need to test your implementation on a real device.
+It's mandatory to add both the *NSMicrophoneUsageDescription* and *NSCameraUsageDescription*.
+Otherwise your app will crash.
 
 ## Usage
 
