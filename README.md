@@ -23,7 +23,7 @@ The SDK is available via Swift Package Manager.
 
 - In Xcode, go to File > Add Packages
 - Search or enter Package URL: https://github.com/eyeson-team/ios-sdk
-- As Dependency Rule, choose "Up to Next Major Version” or "Exact Version" with "1.0.7"
+- As Dependency Rule, choose "Up to Next Major/Minor Version”
 
 ### Configuration
 
