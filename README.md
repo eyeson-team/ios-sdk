@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-The eyeson iOS SDK acts as communication client for a valid meeting room *accessKey* or *guestToken*.
+The eyeson iOS SDK acts as communication client for a valid meeting room **accessKey** or **guestToken**.
 The respective credentials can be obtained from the API with a valid API key.
 Thus, an additional backend webservice to host and maintain eyeson meetings is mandatory from your side.
 See API documentation at [eyeson developers](https://developers.eyeson.team/) for more information.
@@ -27,7 +27,7 @@ The SDK is available via Swift Package Manager.
 
 ### Configuration
 
-It's mandatory to add both the *NSMicrophoneUsageDescription* and *NSCameraUsageDescription*.
+It's mandatory to add both the **NSMicrophoneUsageDescription** and **NSCameraUsageDescription**.
 Otherwise your app will crash.
 
 ## Usage
