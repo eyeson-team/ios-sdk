@@ -21,8 +21,8 @@ That does not allow you to run on Simulator yet. Therefore, you will need to tes
 
 The SDK is available via Swift Package Manager.
 
-- In Xcode, go to File > Add Packages
-- Search or enter Package URL: https://github.com/eyeson-team/ios-sdk
+- In Xcode, go to **File** > **Add Packages**
+- Search or enter Package URL: **https://github.com/eyeson-team/ios-sdk**
 - As Dependency Rule, choose "Up to Next Major/Minor Version”
 
 ### Configuration
@@ -85,6 +85,11 @@ meeting.send(custom: String)
 
 // Set self as presenter
 meeting.setPresenter(true) // set false to disable
+
+// Start capturing Screencast from Broadcast Upload Extension (see Screencast)
+meeting.screencast.startCapture() {
+  // called when broadcast extension has stopped
+}
 
 // Leave meeting
 meeting.leave()
@@ -223,6 +228,26 @@ enum TerminateReason {
     case other
 }
 ```
+
+## Screencast
+
+To support screencasting from iOS devices, you will need to implement a Broadcast Upload Extension into your app.
+- Add **Background Modes** capability to your app with **Audio, AirPlay, and Picture in Picture** selected.
+- Choose **Add Target** > **Broadcast Upload Extension**.
+- Add package dependency **EyesonSdk_Screencast** to broadcast extension.
+- Xcode generates a **SampleHandler.swift** file. 
+- Replace Sample handler class inheritance from RPBroadcastSampleHandler to EyesonScreencastHandler and leave the class empty.
+
+```swift
+import EyesonSdk_Screencast
+
+class SampleHandler: EyesonScreencastHandler {}
+```
+
+- Call meeting.screencast.startCapture() from your app and
+- RPSystemBroadcastPickerView() in your app to show the Broadcast Extension Menu.
+- As soon as the Broadcast Extension starts capturing, the stream will appear in the app.
+- To stop screencast, the stop button needs to be pressed within any of the Broadcast Extension system interfaces.
 
 ## Author
 
