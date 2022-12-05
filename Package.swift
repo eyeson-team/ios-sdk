@@ -12,12 +12,20 @@ let package = Package(
         .library(
             name: "EyesonSdk",
             targets: ["EyesonSdk", "WebRTC"]
+        ),
+        .library(
+            name: "EyesonSdk_Screencast",
+            targets: ["EyesonSdk_Screencast"]
         )
     ],
     targets: [
         .binaryTarget(
             name: "EyesonSdk",
             path: "Sources/EyesonSdk.xcframework"
+        ),
+        .binaryTarget(
+            name: "EyesonSdk_Screencast",
+            path: "Sources/EyesonSdk_Screencast.xcframework"
         ),
         .binaryTarget(
             name: "WebRTC",

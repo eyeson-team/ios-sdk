@@ -1,0 +1,410 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "ReplayKit",
+        "printedName": "ReplayKit",
+        "declKind": "Import",
+        "moduleName": "EyesonSdk_Screencast",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EyesonScreencastHandler",
+        "printedName": "EyesonScreencastHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "broadcastFinished",
+            "printedName": "broadcastFinished()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EyesonSdk_Screencast@objc(cs)EyesonScreencastHandler(im)broadcastFinished",
+            "mangledName": "$s20EyesonSdk_Screencast0aC7HandlerC17broadcastFinishedyyF",
+            "moduleName": "EyesonSdk_Screencast",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "broadcastFinished",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processSampleBuffer",
+            "printedName": "processSampleBuffer(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RPSampleBufferType",
+                "printedName": "ReplayKit.RPSampleBufferType",
+                "usr": "c:@E@RPSampleBufferType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EyesonSdk_Screencast@objc(cs)EyesonScreencastHandler(im)processSampleBuffer:withType:",
+            "mangledName": "$s20EyesonSdk_Screencast0aC7HandlerC19processSampleBuffer_4withySo08CMSampleG3Refa_So08RPSampleG4TypeVtF",
+            "moduleName": "EyesonSdk_Screencast",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "processSampleBuffer:withType:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EyesonScreencastHandler",
+                "printedName": "EyesonSdk_Screencast.EyesonScreencastHandler",
+                "usr": "c:@M@EyesonSdk_Screencast@objc(cs)EyesonScreencastHandler"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@EyesonSdk_Screencast@objc(cs)EyesonScreencastHandler(im)init",
+            "mangledName": "$s20EyesonSdk_Screencast0aC7HandlerCACycfc",
+            "moduleName": "EyesonSdk_Screencast",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@EyesonSdk_Screencast@objc(cs)EyesonScreencastHandler",
+        "mangledName": "$s20EyesonSdk_Screencast0aC7HandlerC",
+        "moduleName": "EyesonSdk_Screencast",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)RPBroadcastSampleHandler",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ReplayKit.RPBroadcastSampleHandler",
+          "ReplayKit.RPBroadcastHandler",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ReplayKit",
+        "printedName": "ReplayKit",
+        "declKind": "Import",
+        "moduleName": "EyesonSdk_Screencast",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VideoToolbox",
+        "printedName": "VideoToolbox",
+        "declKind": "Import",
+        "moduleName": "EyesonSdk_Screencast"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EyesonScreencastService",
+        "printedName": "EyesonScreencastService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "emit",
+            "printedName": "emit(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EyesonSdk_Screencast0aC7ServiceP4emityySo17CMSampleBufferRefaF",
+            "mangledName": "$s20EyesonSdk_Screencast0aC7ServiceP4emityySo17CMSampleBufferRefaF",
+            "moduleName": "EyesonSdk_Screencast",
+            "genericSig": "<τ_0_0 where τ_0_0 : EyesonSdk_Screencast.EyesonScreencastService>",
+            "sugared_genericSig": "<Self where Self : EyesonSdk_Screencast.EyesonScreencastService>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EyesonSdk_Screencast0aC7ServiceP4stopyyF",
+            "mangledName": "$s20EyesonSdk_Screencast0aC7ServiceP4stopyyF",
+            "moduleName": "EyesonSdk_Screencast",
+            "genericSig": "<τ_0_0 where τ_0_0 : EyesonSdk_Screencast.EyesonScreencastService>",
+            "sugared_genericSig": "<Self where Self : EyesonSdk_Screencast.EyesonScreencastService>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20EyesonSdk_Screencast0aC7ServiceP",
+        "mangledName": "$s20EyesonSdk_Screencast0aC7ServiceP",
+        "moduleName": "EyesonSdk_Screencast",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EyesonScreencast",
+        "printedName": "EyesonScreencast",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "lastTimestamp",
+            "printedName": "lastTimestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20EyesonSdk_Screencast0aC0C13lastTimestamp33_A6C77DDE6E1B4F8677B54BF5741E53F0LLSdSgvp",
+            "mangledName": "$s20EyesonSdk_Screencast0aC0C13lastTimestamp33_A6C77DDE6E1B4F8677B54BF5741E53F0LLSdSgvp",
+            "moduleName": "EyesonSdk_Screencast",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "session",
+            "printedName": "session",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20EyesonSdk_Screencast0aC0C7session33_A6C77DDE6E1B4F8677B54BF5741E53F0LLSo12NSURLSessionCvp",
+            "mangledName": "$s20EyesonSdk_Screencast0aC0C7session33_A6C77DDE6E1B4F8677B54BF5741E53F0LLSo12NSURLSessionCvp",
+            "moduleName": "EyesonSdk_Screencast",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "emit",
+            "printedName": "emit(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EyesonSdk_Screencast0aC0C4emityySo17CMSampleBufferRefaF",
+            "mangledName": "$s20EyesonSdk_Screencast0aC0C4emityySo17CMSampleBufferRefaF",
+            "moduleName": "EyesonSdk_Screencast",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EyesonSdk_Screencast0aC0C4stopyyF",
+            "mangledName": "$s20EyesonSdk_Screencast0aC0C4stopyyF",
+            "moduleName": "EyesonSdk_Screencast",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EyesonScreencast",
+                "printedName": "EyesonSdk_Screencast.EyesonScreencast",
+                "usr": "s:20EyesonSdk_Screencast0aC0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20EyesonSdk_Screencast0aC0CACycfc",
+            "mangledName": "$s20EyesonSdk_Screencast0aC0CACycfc",
+            "moduleName": "EyesonSdk_Screencast",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20EyesonSdk_Screencast0aC0C",
+        "mangledName": "$s20EyesonSdk_Screencast0aC0C",
+        "moduleName": "EyesonSdk_Screencast",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "EyesonScreencastService",
+            "printedName": "EyesonScreencastService",
+            "usr": "s:20EyesonSdk_Screencast0aC7ServiceP",
+            "mangledName": "$s20EyesonSdk_Screencast0aC7ServiceP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

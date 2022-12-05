@@ -262,6 +262,8 @@ SWIFT_CLASS("_TtC9EyesonSdk19FoundationTransport")
 @end
 
 
+
+
 @class NSURLSession;
 @class NSURLSessionWebSocketTask;
 @class NSString;
