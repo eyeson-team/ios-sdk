@@ -86,9 +86,9 @@ meeting.send(custom: String)
 // Set self as presenter
 meeting.setPresenter(true) // set false to disable
 
-// Start capturing Screencast from Broadcast Upload Extension (see Screencast)
-meeting.screencast.startCapture() {
-  // called when broadcast extension has stopped
+// Observe screencast state from broadcast upload extension (see Screencasting)
+meeting.screencast?.observe() { isRunning in
+  // called when broadcast extension has updated its state
 }
 
 // Leave meeting
@@ -244,7 +244,7 @@ import EyesonSdk_Screencast
 class SampleHandler: EyesonScreencastHandler {}
 ```
 
-- Call meeting.screencast.startCapture() from your app and
+- Call meeting.screencast?.observe() from your app and
 - RPSystemBroadcastPickerView() in your app to show the Broadcast Extension Menu.
 - As soon as the Broadcast Extension starts capturing, the stream will appear in the app.
 - To stop screencast, the stop button needs to be pressed within any of the Broadcast Extension system interfaces.

@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name EyesonSdk
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name EyesonSdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import CommonCrypto
@@ -916,7 +916,7 @@ public protocol EyesonMeeting {
   var remoteVideoView: UIKit.UIView { get }
   var camera: AVFoundation.AVCaptureDevice.Position { get set }
   var user: EyesonSdk.Eyeson.User { get }
-  var screencast: EyesonSdk.EyesonScreencastHandler? { get }
+  var screencast: EyesonSdk.EyesonScreencastService? { get }
   func user(_ id: Swift.String, completion: @escaping (EyesonSdk.Eyeson.User?, Swift.Error?) -> Swift.Void)
   func mute(_ device: EyesonSdk.Eyeson.Device, _ mute: Swift.Bool)
   func muteAll()
@@ -944,9 +944,8 @@ public protocol CompressionHandler {
   func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
   func compress(data: Foundation.Data) -> Foundation.Data?
 }
-public protocol EyesonScreencastHandler {
-  func startCapture(completion: (() -> ())?)
-  func stopCapture()
+public protocol EyesonScreencastService {
+  func observe(onUpdate: ((Swift.Bool) -> ())?)
 }
 public protocol EyesonSDK {
   var environment: EyesonSdk.Environment { get set }
