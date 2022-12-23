@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "EyesonSdk",
-            targets: ["EyesonSdk", "WebRTC"]
+            targets: ["EyesonSdk", "EyesonSdk_Screencast", "WebRTC"]
         ),
         .library(
             name: "EyesonSdk_Screencast",
