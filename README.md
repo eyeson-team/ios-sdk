@@ -87,8 +87,8 @@ meeting.send(custom: String)
 meeting.setPresenter(true) // set false to disable
 
 // Observe screencast state from broadcast upload extension (see Screencasting)
-meeting.screencast?.observe() { isRunning in
-  // called when broadcast extension has updated its state
+meeting.screencast?.observe() { isActive in
+  // called when broadcast extension has switched its state
 }
 
 // Leave meeting
