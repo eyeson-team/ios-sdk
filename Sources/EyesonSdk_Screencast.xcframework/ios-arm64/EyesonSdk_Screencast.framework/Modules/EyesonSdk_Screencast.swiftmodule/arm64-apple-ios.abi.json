@@ -198,5 +198,13 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk_Screencast\/ScreencastHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 568,
+      "length": 5,
+      "value": "false"
+    }
+  ]
 }
