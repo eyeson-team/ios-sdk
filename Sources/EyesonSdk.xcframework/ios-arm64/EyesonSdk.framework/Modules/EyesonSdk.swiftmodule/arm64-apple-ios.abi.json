@@ -19937,22 +19937,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "EyesonSdk.EyesonScreencastService?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EyesonScreencastService",
-                    "printedName": "EyesonSdk.EyesonScreencastService",
-                    "usr": "s:9EyesonSdk0A17ScreencastServiceP"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "EyesonScreencastService",
+                "printedName": "EyesonSdk.EyesonScreencastService",
+                "usr": "s:9EyesonSdk0A17ScreencastServiceP"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9EyesonSdk0A7MeetingP10screencastAA0A17ScreencastService_pSgvp",
-            "mangledName": "$s9EyesonSdk0A7MeetingP10screencastAA0A17ScreencastService_pSgvp",
+            "usr": "s:9EyesonSdk0A7MeetingP10screencastAA0A17ScreencastService_pvp",
+            "mangledName": "$s9EyesonSdk0A7MeetingP10screencastAA0A17ScreencastService_pvp",
             "moduleName": "EyesonSdk",
             "protocolReq": true,
             "accessors": [
@@ -19963,22 +19955,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "EyesonSdk.EyesonScreencastService?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EyesonScreencastService",
-                        "printedName": "EyesonSdk.EyesonScreencastService",
-                        "usr": "s:9EyesonSdk0A17ScreencastServiceP"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "EyesonScreencastService",
+                    "printedName": "EyesonSdk.EyesonScreencastService",
+                    "usr": "s:9EyesonSdk0A17ScreencastServiceP"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9EyesonSdk0A7MeetingP10screencastAA0A17ScreencastService_pSgvg",
-                "mangledName": "$s9EyesonSdk0A7MeetingP10screencastAA0A17ScreencastService_pSgvg",
+                "usr": "s:9EyesonSdk0A7MeetingP10screencastAA0A17ScreencastService_pvg",
+                "mangledName": "$s9EyesonSdk0A7MeetingP10screencastAA0A17ScreencastService_pvg",
                 "moduleName": "EyesonSdk",
                 "genericSig": "<τ_0_0 where τ_0_0 : EyesonSdk.EyesonMeeting>",
                 "sugared_genericSig": "<Self where Self : EyesonSdk.EyesonMeeting>",
@@ -63633,21 +63617,21 @@
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/MediaHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 747,
+      "offset": 761,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/MediaHandler.swift",
       "kind": "Array",
-      "offset": 852,
+      "offset": 866,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/MediaHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4821,
+      "offset": 5135,
       "length": 4,
       "value": "true"
     },
@@ -64249,21 +64233,21 @@
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/EyesonMeeting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1901,
+      "offset": 1892,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/EyesonMeeting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1935,
+      "offset": 1926,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/EyesonMeeting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1970,
+      "offset": 1961,
       "length": 5,
       "value": "false"
     },

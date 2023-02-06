@@ -916,7 +916,7 @@ public protocol EyesonMeeting {
   var remoteVideoView: UIKit.UIView { get }
   var camera: AVFoundation.AVCaptureDevice.Position { get set }
   var user: EyesonSdk.Eyeson.User { get }
-  var screencast: EyesonSdk.EyesonScreencastService? { get }
+  var screencast: EyesonSdk.EyesonScreencastService { get }
   func user(_ id: Swift.String, completion: @escaping (EyesonSdk.Eyeson.User?, Swift.Error?) -> Swift.Void)
   func mute(_ device: EyesonSdk.Eyeson.Device, _ mute: Swift.Bool)
   func muteAll()

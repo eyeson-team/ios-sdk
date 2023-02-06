@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/eyeson-team/ios-sdk",
+      "state" : {
+        "revision" : "f72ed8c3c50079ebce4701257cd62a0cbddc9983",
+        "version" : "1.1.4"
+      }
+    }
+  ],
+  "version" : 2
+}
