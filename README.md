@@ -232,7 +232,7 @@ enum TerminateReason {
 ## Screencast
 
 To support screencasting from iOS devices, you will need to implement a Broadcast Upload Extension into your app.
-- Add **Background Modes** capability to your app with **Audio, AirPlay, and Picture in Picture** selected.
+- Add **Background Modes** capability to your app with **Voice over IP** selected.
 - Choose **Add Target** > **Broadcast Upload Extension**.
 - Add package dependency **EyesonSdk_Screencast** to broadcast extension.
 - Xcode generates a **SampleHandler.swift** file. 
