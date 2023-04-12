@@ -13,13 +13,13 @@
 		B538E67D28EC8F5900FA92B1 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B538E67C28EC8F5900FA92B1 /* ChatMessage.swift */; };
 		B539AE5E295318ED00F054B3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539AE5D295318ED00F054B3 /* MainView.swift */; };
 		B53BD480276B46C900176D06 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53BD47F276B46C900176D06 /* ScanView.swift */; };
+		B544E84029E6E2EA0024176F /* EyesonSdk in Frameworks */ = {isa = PBXBuildFile; productRef = B544E83F29E6E2EA0024176F /* EyesonSdk */; };
+		B544E84229E6E2EA0024176F /* EyesonSdk_Screencast in Frameworks */ = {isa = PBXBuildFile; productRef = B544E84129E6E2EA0024176F /* EyesonSdk_Screencast */; };
 		B5530DB82769DD4100ACC454 /* EyesonCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5530DB72769DD4100ACC454 /* EyesonCoordinator.swift */; };
 		B5530DBA2769E10D00ACC454 /* EyesonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5530DB92769E10D00ACC454 /* EyesonView.swift */; };
 		B55BD289292F70C900D64043 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55BD288292F70C900D64043 /* ReplayKit.framework */; };
 		B55BD28C292F70C900D64043 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BD28B292F70C900D64043 /* SampleHandler.swift */; };
 		B55BD290292F70C900D64043 /* BroadcastExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B55BD287292F70C900D64043 /* BroadcastExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B56D347829E6DE6100A0AE2D /* EyesonSdk in Frameworks */ = {isa = PBXBuildFile; productRef = B56D347729E6DE6100A0AE2D /* EyesonSdk */; };
-		B56D347A29E6DE6100A0AE2D /* EyesonSdk_Screencast in Frameworks */ = {isa = PBXBuildFile; productRef = B56D347929E6DE6100A0AE2D /* EyesonSdk_Screencast */; };
 		B574954F27678B7E00CDC259 /* ExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574954E27678B7E00CDC259 /* ExampleAppApp.swift */; };
 		B574955127678B7E00CDC259 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574955027678B7E00CDC259 /* SplashView.swift */; };
 		B574955327678B7F00CDC259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B574955227678B7F00CDC259 /* Assets.xcassets */; };
@@ -97,7 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55BD289292F70C900D64043 /* ReplayKit.framework in Frameworks */,
-				B56D347A29E6DE6100A0AE2D /* EyesonSdk_Screencast in Frameworks */,
+				B544E84229E6E2EA0024176F /* EyesonSdk_Screencast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56D347829E6DE6100A0AE2D /* EyesonSdk in Frameworks */,
+				B544E84029E6E2EA0024176F /* EyesonSdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,7 @@
 			);
 			name = BroadcastExtension;
 			packageProductDependencies = (
-				B56D347929E6DE6100A0AE2D /* EyesonSdk_Screencast */,
+				B544E84129E6E2EA0024176F /* EyesonSdk_Screencast */,
 			);
 			productName = BroadcastExtension;
 			productReference = B55BD287292F70C900D64043 /* BroadcastExtension.appex */;
@@ -292,7 +292,7 @@
 			);
 			name = ExampleApp;
 			packageProductDependencies = (
-				B56D347729E6DE6100A0AE2D /* EyesonSdk */,
+				B544E83F29E6E2EA0024176F /* EyesonSdk */,
 			);
 			productName = ExampleApp;
 			productReference = B574954B27678B7E00CDC259 /* ExampleApp.app */;
@@ -326,7 +326,7 @@
 			);
 			mainGroup = B574954227678B7E00CDC259;
 			packageReferences = (
-				B56D347629E6DE6100A0AE2D /* XCRemoteSwiftPackageReference "ios-sdk" */,
+				B544E83E29E6E2EA0024176F /* XCRemoteSwiftPackageReference "ios-sdk" */,
 			);
 			productRefGroup = B574954C27678B7E00CDC259 /* Products */;
 			projectDirPath = "";
@@ -684,7 +684,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B56D347629E6DE6100A0AE2D /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+		B544E83E29E6E2EA0024176F /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/eyeson-team/ios-sdk";
 			requirement = {
@@ -695,14 +695,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B56D347729E6DE6100A0AE2D /* EyesonSdk */ = {
+		B544E83F29E6E2EA0024176F /* EyesonSdk */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B56D347629E6DE6100A0AE2D /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			package = B544E83E29E6E2EA0024176F /* XCRemoteSwiftPackageReference "ios-sdk" */;
 			productName = EyesonSdk;
 		};
-		B56D347929E6DE6100A0AE2D /* EyesonSdk_Screencast */ = {
+		B544E84129E6E2EA0024176F /* EyesonSdk_Screencast */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B56D347629E6DE6100A0AE2D /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			package = B544E83E29E6E2EA0024176F /* XCRemoteSwiftPackageReference "ios-sdk" */;
 			productName = EyesonSdk_Screencast;
 		};
 /* End XCSwiftPackageProductDependency section */
