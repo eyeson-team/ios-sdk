@@ -18,6 +18,8 @@
 		B55BD289292F70C900D64043 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55BD288292F70C900D64043 /* ReplayKit.framework */; };
 		B55BD28C292F70C900D64043 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BD28B292F70C900D64043 /* SampleHandler.swift */; };
 		B55BD290292F70C900D64043 /* BroadcastExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B55BD287292F70C900D64043 /* BroadcastExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B56D347829E6DE6100A0AE2D /* EyesonSdk in Frameworks */ = {isa = PBXBuildFile; productRef = B56D347729E6DE6100A0AE2D /* EyesonSdk */; };
+		B56D347A29E6DE6100A0AE2D /* EyesonSdk_Screencast in Frameworks */ = {isa = PBXBuildFile; productRef = B56D347929E6DE6100A0AE2D /* EyesonSdk_Screencast */; };
 		B574954F27678B7E00CDC259 /* ExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574954E27678B7E00CDC259 /* ExampleAppApp.swift */; };
 		B574955127678B7E00CDC259 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B574955027678B7E00CDC259 /* SplashView.swift */; };
 		B574955327678B7F00CDC259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B574955227678B7F00CDC259 /* Assets.xcassets */; };
@@ -28,8 +30,6 @@
 		B5866DA428EB179C009D9B4B /* EyesonMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5866DA328EB179C009D9B4B /* EyesonMenu.swift */; };
 		B5866DA628EB1FE9009D9B4B /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5866DA528EB1FE9009D9B4B /* MenuItem.swift */; };
 		B5866DA928EB2B0B009D9B4B /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5866DA828EB2B0B009D9B4B /* LogMessage.swift */; };
-		B5B6FAA9299153E9004EA697 /* EyesonSdk in Frameworks */ = {isa = PBXBuildFile; productRef = B5B6FAA8299153E9004EA697 /* EyesonSdk */; };
-		B5B6FAAB299153E9004EA697 /* EyesonSdk_Screencast in Frameworks */ = {isa = PBXBuildFile; productRef = B5B6FAAA299153E9004EA697 /* EyesonSdk_Screencast */; };
 		B5BEFB6E2938E8FF00DBF8EB /* ScreencastPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BEFB6D2938E8FF00DBF8EB /* ScreencastPickerView.swift */; };
 /* End PBXBuildFile section */
 
@@ -97,7 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55BD289292F70C900D64043 /* ReplayKit.framework in Frameworks */,
-				B5B6FAAB299153E9004EA697 /* EyesonSdk_Screencast in Frameworks */,
+				B56D347A29E6DE6100A0AE2D /* EyesonSdk_Screencast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B6FAA9299153E9004EA697 /* EyesonSdk in Frameworks */,
+				B56D347829E6DE6100A0AE2D /* EyesonSdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,7 @@
 			);
 			name = BroadcastExtension;
 			packageProductDependencies = (
-				B5B6FAAA299153E9004EA697 /* EyesonSdk_Screencast */,
+				B56D347929E6DE6100A0AE2D /* EyesonSdk_Screencast */,
 			);
 			productName = BroadcastExtension;
 			productReference = B55BD287292F70C900D64043 /* BroadcastExtension.appex */;
@@ -292,7 +292,7 @@
 			);
 			name = ExampleApp;
 			packageProductDependencies = (
-				B5B6FAA8299153E9004EA697 /* EyesonSdk */,
+				B56D347729E6DE6100A0AE2D /* EyesonSdk */,
 			);
 			productName = ExampleApp;
 			productReference = B574954B27678B7E00CDC259 /* ExampleApp.app */;
@@ -326,7 +326,7 @@
 			);
 			mainGroup = B574954227678B7E00CDC259;
 			packageReferences = (
-				B5B6FAA7299153E9004EA697 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+				B56D347629E6DE6100A0AE2D /* XCRemoteSwiftPackageReference "ios-sdk" */,
 			);
 			productRefGroup = B574954C27678B7E00CDC259 /* Products */;
 			projectDirPath = "";
@@ -586,7 +586,7 @@
 				CODE_SIGN_ENTITLEMENTS = ExampleApp/ExampleApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 42;
 				DEVELOPMENT_ASSET_PATHS = "\"ExampleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9CLSXL2Y8R;
 				ENABLE_BITCODE = NO;
@@ -623,7 +623,7 @@
 				CODE_SIGN_ENTITLEMENTS = ExampleApp/ExampleApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 42;
 				DEVELOPMENT_ASSET_PATHS = "\"ExampleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9CLSXL2Y8R;
 				ENABLE_BITCODE = NO;
@@ -684,25 +684,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B5B6FAA7299153E9004EA697 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+		B56D347629E6DE6100A0AE2D /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/eyeson-team/ios-sdk";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.0;
+				kind = exactVersion;
+				version = 1.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B5B6FAA8299153E9004EA697 /* EyesonSdk */ = {
+		B56D347729E6DE6100A0AE2D /* EyesonSdk */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B5B6FAA7299153E9004EA697 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			package = B56D347629E6DE6100A0AE2D /* XCRemoteSwiftPackageReference "ios-sdk" */;
 			productName = EyesonSdk;
 		};
-		B5B6FAAA299153E9004EA697 /* EyesonSdk_Screencast */ = {
+		B56D347929E6DE6100A0AE2D /* EyesonSdk_Screencast */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B5B6FAA7299153E9004EA697 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			package = B56D347629E6DE6100A0AE2D /* XCRemoteSwiftPackageReference "ios-sdk" */;
 			productName = EyesonSdk_Screencast;
 		};
 /* End XCSwiftPackageProductDependency section */

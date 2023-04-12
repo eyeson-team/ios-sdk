@@ -35632,8 +35632,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "EyesonSdk",
         "declAttributes": [
@@ -71571,119 +71571,119 @@
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 1269,
+      "offset": 1264,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 1545,
+      "offset": 1540,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 1748,
+      "offset": 1743,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 1799,
+      "offset": 1794,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 1807,
+      "offset": 1802,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 1895,
+      "offset": 1890,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 1901,
+      "offset": 1896,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2053,
+      "offset": 2048,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2700,
+      "offset": 2695,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2787,
+      "offset": 2782,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2921,
+      "offset": 2916,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2982,
+      "offset": 2977,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 3059,
+      "offset": 3054,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 3120,
+      "offset": 3115,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 3218,
+      "offset": 3213,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 4255,
+      "offset": 4250,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 4340,
+      "offset": 4335,
       "length": 1,
       "value": "0"
     },
