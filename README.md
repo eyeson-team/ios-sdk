@@ -14,8 +14,8 @@ Install the Swift Package as described above to get everything up and running.
 
 ### Simulator Runs
 
-For repository sanity, the WebRTC framework is currently not available for other architectures than arm64.
-That does not allow you to run on Simulator yet. Therefore, you will need to test your implementation on a real device.
+Not all features are working properly in Simulator runs, like Screencast, Picture in Picture, etc.
+Always test your implementation on a real device.
 
 ## Installation
 
