@@ -27,8 +27,18 @@ The SDK is available via Swift Package Manager.
 
 ### Configuration
 
-It's mandatory to add both the **NSMicrophoneUsageDescription** and **NSCameraUsageDescription**.
-Otherwise your app will crash.
+#### Info.plist
+
+It's mandatory to add
+- **NSMicrophoneUsageDescription** and
+- **NSCameraUsageDescription** 
+otherwise your app will crash.
+
+#### Background Modes
+
+Under **Signing & Capabilities**, enable the following **Background Modes**:
+- **Voice over IP**
+- **Audio, AirPlay, and Picture in Picture**
 
 ## Usage
 
@@ -232,7 +242,6 @@ enum TerminateReason {
 ## Screencast
 
 To support screencasting from iOS devices, you will need to implement a Broadcast Upload Extension into your app.
-- Add **Background Modes** capability to your app with **Voice over IP** selected.
 - Choose **Add Target** > **Broadcast Upload Extension**.
 - Add package dependency **EyesonSdk_Screencast** to broadcast extension.
 - Xcode generates a **SampleHandler.swift** file. 
