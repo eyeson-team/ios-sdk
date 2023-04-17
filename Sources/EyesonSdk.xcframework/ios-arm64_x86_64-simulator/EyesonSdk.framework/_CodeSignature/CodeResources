@@ -8,18 +8,6 @@
 		<data>
 		gWoomiy/0QbdGG/bcLafPx1SOlE=
 		</data>
-		<key>Frameworks/WebRTC.framework/Info.plist</key>
-		<data>
-		vFebFa1NdAH53xkPI68SjiR5BvE=
-		</data>
-		<key>Frameworks/WebRTC.framework/WebRTC</key>
-		<data>
-		LCw/g6yhEoBk4l1WeX1eBrPZ9Io=
-		</data>
-		<key>Frameworks/WebRTC.framework/_CodeSignature/CodeResources</key>
-		<data>
-		4x4k0+Hx6ETKizVnZCaJ+1a8zVE=
-		</data>
 		<key>Headers/EyesonSdk-Swift.h</key>
 		<data>
 		+F5by/NTZoB9WB3O2RoKo0OQvtg=
@@ -100,27 +88,6 @@
 			<key>hash2</key>
 			<data>
 			b9/mBmK5FX5V8d35Cah7Bt4Rc9gAPl9MGECKT6vEtUQ=
-			</data>
-		</dict>
-		<key>Frameworks/WebRTC.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			A9/9JbqCR/QQIzIzX8TOfbBZjlskmuKY5PEfbQ548MI=
-			</data>
-		</dict>
-		<key>Frameworks/WebRTC.framework/WebRTC</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			r1eMcoZgMXlAtfszgR4+O0CtkweLbm4iQGdg6CsouHE=
-			</data>
-		</dict>
-		<key>Frameworks/WebRTC.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rZWDPIkYYcVYaUkukDldmOos05uQfqndGcOto6rOmW4=
 			</data>
 		</dict>
 		<key>Headers/EyesonSdk-Swift.h</key>
