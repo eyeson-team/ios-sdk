@@ -23,6 +23,8 @@ struct EyesonMenuButton: View {
 struct EyesonMenu: View {
     
     @EnvironmentObject var coordinator: EyesonCoordinator
+    
+    @State private var showsImagePicker: Bool = false
         
     var body: some View {
         HStack {
@@ -42,6 +44,54 @@ struct EyesonMenu: View {
                     MenuItem("Mute all participants") {
                         Button("Mute", action: {
                             coordinator.muteAll()
+                        })
+                        .font(.system(size: 15, weight: .semibold))
+                        .textCase(.uppercase)
+                        .foregroundColor(.black)
+                    }
+                    
+                    MenuItem("Recording") {
+                        Button(coordinator.isRecording ? "Stop" : "Start", action: {
+                            coordinator.isRecording.toggle()
+                        })
+                        .font(.system(size: 15, weight: .semibold))
+                        .textCase(.uppercase)
+                        .foregroundColor(.black)
+                    }
+                    
+                    MenuItem("Snapshot") {
+                        Button("Create", action: {
+                            coordinator.snapshot()
+                        })
+                        .font(.system(size: 15, weight: .semibold))
+                        .textCase(.uppercase)
+                        .foregroundColor(.black)
+                    }
+                    
+                    MenuItem("Overlay") {
+                        if let _ = coordinator.overlayImage {
+                            Button("Remove", action: {
+                                coordinator.overlayImage = nil
+                            })
+                            .font(.system(size: 15, weight: .semibold))
+                            .textCase(.uppercase)
+                            .foregroundColor(.black)
+                        } else {
+                            Button("Select Image", action: {
+                                showsImagePicker = true
+                            })
+                            .font(.system(size: 15, weight: .semibold))
+                            .textCase(.uppercase)
+                            .foregroundColor(.black)
+                        }
+                    }
+                    .sheet(isPresented: $showsImagePicker) {
+                        ImagePicker(image: $coordinator.overlayImage)
+                    }
+                    
+                    MenuItem("Lock room") {
+                        Button("Lock", action: {
+                            coordinator.lock()
                         })
                         .font(.system(size: 15, weight: .semibold))
                         .textCase(.uppercase)

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name EyesonSdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -908,26 +908,6 @@ public class WebSocketSession : Swift.Hashable, Swift.Equatable {
   }
 }
 public func == (webSocketSession1: EyesonSdk.WebSocketSession, webSocketSession2: EyesonSdk.WebSocketSession) -> Swift.Bool
-public protocol EyesonDelegate {
-  func eyeson(_ meeting: any EyesonSdk.EyesonMeeting, didReceive event: any EyesonSdk.EyesonEvent)
-}
-public protocol EyesonMeeting {
-  var delegate: (any EyesonSdk.EyesonDelegate)? { get set }
-  var links: EyesonSdk.Eyeson.Links { get }
-  var localVideoView: UIKit.UIView { get }
-  var remoteVideoView: UIKit.UIView { get }
-  var camera: AVFoundation.AVCaptureDevice.Position { get set }
-  var user: EyesonSdk.Eyeson.User { get }
-  var screencast: any EyesonSdk.EyesonScreencastService { get }
-  func user(_ id: Swift.String, completion: @escaping (EyesonSdk.Eyeson.User?, (any Swift.Error)?) -> Swift.Void)
-  func mute(_ device: EyesonSdk.Eyeson.Device, _ mute: Swift.Bool)
-  func muteAll()
-  func send(chat message: Swift.String)
-  func send(custom content: Swift.String)
-  func setPresenter(_ isActive: Swift.Bool)
-  func leave()
-  func stats(completion: @escaping (EyesonSdk.Eyeson.Event.Stats) -> Swift.Void)
-}
 extension Swift.String {
   public func unquote() -> Swift.String
 }
@@ -955,6 +935,41 @@ public protocol EyesonSDK {
   func join(_ accessKey: Swift.String, video: Swift.Bool, camera: AVFoundation.AVCaptureDevice.Position, videoMuted: Swift.Bool, audioMuted: Swift.Bool, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
   func join(_ guestToken: Swift.String, name: Swift.String, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
   func join(_ guestToken: Swift.String, name: Swift.String, video: Swift.Bool, camera: AVFoundation.AVCaptureDevice.Position, videoMuted: Swift.Bool, audioMuted: Swift.Bool, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+}
+public protocol EyesonDelegate {
+  func eyeson(_ meeting: any EyesonSdk.EyesonMeeting, didReceive event: any EyesonSdk.EyesonEvent)
+}
+public protocol EyesonMeeting {
+  var delegate: (any EyesonSdk.EyesonDelegate)? { get set }
+  var links: EyesonSdk.Eyeson.Links { get }
+  var localVideoView: UIKit.UIView { get }
+  var remoteVideoView: UIKit.UIView { get }
+  var camera: AVFoundation.AVCaptureDevice.Position { get set }
+  var user: EyesonSdk.Eyeson.User { get }
+  var screencast: any EyesonSdk.EyesonScreencastService { get }
+  func user(_ id: Swift.String, completion: @escaping (EyesonSdk.Eyeson.User?, (any Swift.Error)?) -> Swift.Void)
+  func mute(_ device: EyesonSdk.Eyeson.Device, _ mute: Swift.Bool)
+  func muteAll()
+  func send(chat message: Swift.String)
+  func send(custom content: Swift.String)
+  func startRecording()
+  func stopRecording()
+  func startPlayback(id: Swift.String, audio: Swift.Bool, replace userId: Swift.String, url: Foundation.URL, name: Swift.String, loopCount: Swift.Int)
+  func stopPlayback(id: Swift.String)
+  func startBroadcast(streamUrl: Foundation.URL, playerUrl: Foundation.URL)
+  func updateBroadcast(playerUrl: Foundation.URL)
+  func stopBroadcast()
+  func snapshot()
+  func setLayout(_ layout: Swift.String)
+  func setPresenter(_ isActive: Swift.Bool)
+  func addLayer(image: UIKit.UIImage, index: Swift.Int?)
+  func addLayer(url: Foundation.URL, index: Swift.Int?)
+  func addLayer(icon: Swift.String?, title: Swift.String?, content: Swift.String?, index: Swift.Int?)
+  func removeLayer(index: Swift.Int)
+  func kick(user id: Swift.String)
+  func lock()
+  func leave()
+  func stats(completion: @escaping (EyesonSdk.Eyeson.Event.Stats) -> Swift.Void)
 }
 @_hasMissingDesignatedInitializers public class Eyeson : EyesonSdk.EyesonSDK {
   public static var shared: any EyesonSdk.EyesonSDK

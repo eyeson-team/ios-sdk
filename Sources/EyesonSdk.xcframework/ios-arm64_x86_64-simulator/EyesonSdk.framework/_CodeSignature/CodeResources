@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/EyesonSdk-Swift.h</key>
 		<data>
-		+F5by/NTZoB9WB3O2RoKo0OQvtg=
+		r5dLfOQLags+rdQu/JT5eBasjIA=
 		</data>
 		<key>Headers/EyesonSdk.h</key>
 		<data>
@@ -18,55 +18,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yUjaio0PR5l0uU4IfuEdqSVMpqw=
+		Oyuq9Czhtc+FsDwZbpnaRPg6zAQ=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		sojJkzrTS7smuNZIgIHSseaStcE=
+		SHzhQpBtgR6XaKnKj2I44OPrauo=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		FOA89BbzW+GAwG8RY9snH2Ju/9A=
+		nTIoZgeZkVrSANzuTYCJtqn1kZw=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		m7fJhr5bvAVBh/U4LFfpXcQtRtY=
+		7ixPyjCkwOBJm0Jl8pYfw7Uj+3M=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gwZvbL8AkWIexaIjzvH/QKgxyAQ=
+		ZgHl3aGrjcgDzN+/USkfRZOGspU=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3MKDpbmSziEtrbDExcwZeDFkTO4=
+		ayFiKBkkHYby+P7NYShrGW60hBU=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gwZvbL8AkWIexaIjzvH/QKgxyAQ=
+		ZgHl3aGrjcgDzN+/USkfRZOGspU=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		H5buwQz+O2xlwaZ6FDyeN0XhI7k=
+		Y+eMifdX2pNBFXd+rYOO6BNxKTk=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		m7fJhr5bvAVBh/U4LFfpXcQtRtY=
+		7ixPyjCkwOBJm0Jl8pYfw7Uj+3M=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		m2/VMXWCJ8lSpcW1BpN5RuUbtg8=
+		Yq07S1DmwC+ryP3Px92pA788poQ=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		na8NFhKsXXNavYdGmznWqu8FSLA=
+		CI/oQP2bI0zLMq0d6vv+8XyvLtM=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		m2/VMXWCJ8lSpcW1BpN5RuUbtg8=
+		Yq07S1DmwC+ryP3Px92pA788poQ=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AwKRlhLYJE7437Ovpks6KaKlhsU=
+		q8nyLtKamAd2vxL2JP8a12pN7yE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lwybo9YpgQPDQOiGvpJxymoAW9evkCZz/I7COe4zOmQ=
+			/bTpkPkl4X7PWlnBc+AFXh6CRnnQQSUTK87BtZFdUII=
 			</data>
 		</dict>
 		<key>Headers/EyesonSdk.h</key>
@@ -108,84 +108,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TiHOUiePlrKMYmDLbyCy7WbTSrDHWgDSOq79kHL29v4=
+			BrPuNyIsjOUe3iTg4rk4dJr419g9NbQA7uUYSBZfTbw=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H3us32SXQIqz7oK6IDsSQdYU4JAP97t6cyPCcyjL4OI=
+			bNcae29Mm6yEdKuMjzap7ZUCFURpg436Gfn9Y7J8k4Y=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wp7i+/Pjcu8wIZgsfeJYIo9X5gheFueCQuSRSDBT0vg=
+			0KNWOkkmy0epH4odkDalf2WJureSZH6clVVM4eRyeXo=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uf5keu1tjOGCaspbwi8SnAR6eCeUwyYVJl8zcZM2odc=
+			jbz9hNHDdGCXKij0h0MHKWd/HqUp6xxZUynZvjFOHg4=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zgdUi0rBfWDc+8bO4WLUC3JYhCvFEDT7sAx50i2Di9Q=
+			UMf/1NtPIa5BwNqjioTxLY9cBWiAefK+rLapWLt4ZVI=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uf5keu1tjOGCaspbwi8SnAR6eCeUwyYVJl8zcZM2odc=
+			jbz9hNHDdGCXKij0h0MHKWd/HqUp6xxZUynZvjFOHg4=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rw3n6NVHT9WXNKtwR6bqO9X2nUHvnW8koFfbQyRxHAg=
+			1SbCe5LMoqqagpgF/Oz+hBifHLGlHdkPl6v/GVAXvNI=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wp7i+/Pjcu8wIZgsfeJYIo9X5gheFueCQuSRSDBT0vg=
+			0KNWOkkmy0epH4odkDalf2WJureSZH6clVVM4eRyeXo=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lotCP/vXw+7SuSi5xpLakD0b0MNfBijFiLgtm8ElZzI=
+			OuOMi2ZoOb6BfAEELOd45i/u21wf55sIGsgFe23Ti2Q=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mc1ZExqI2c5Q+o+WqasF1tB0qzlTkwyyw+HuSpIHWdo=
+			rwQ46gJtp3+kghPYkklaOMXhT5sDCumWQyLlyFGPiaE=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lotCP/vXw+7SuSi5xpLakD0b0MNfBijFiLgtm8ElZzI=
+			OuOMi2ZoOb6BfAEELOd45i/u21wf55sIGsgFe23Ti2Q=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mOLL4YL55vK+Zk8QOD+zb50jiFs7YkPzaYlXUrRskBI=
+			BfKFSO3A/JqvoGRbUkSOEupTmN2Ivfx0VMdw4t6uXV8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

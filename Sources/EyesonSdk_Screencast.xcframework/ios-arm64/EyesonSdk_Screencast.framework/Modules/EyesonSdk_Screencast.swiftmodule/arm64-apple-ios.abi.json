@@ -197,13 +197,6 @@
       },
       {
         "kind": "Import",
-        "name": "WebRTC",
-        "printedName": "WebRTC",
-        "declKind": "Import",
-        "moduleName": "EyesonSdk_Screencast"
-      },
-      {
-        "kind": "Import",
         "name": "ReplayKit",
         "printedName": "ReplayKit",
         "declKind": "Import",
@@ -276,55 +269,6 @@
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 2048,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2695,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2782,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2916,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2977,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3054,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3115,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/RenderingUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3213,
       "length": 1,
       "value": "0"
     },

@@ -64,6 +64,7 @@ class EyesonCoordinator: ObservableObject {
     @Published var isLoading = false
     @Published var isReady = false
     @Published var isScreencasting = false
+    @Published var isRecording = false { didSet { isRecording ? meeting?.startRecording() : meeting?.stopRecording() } }
     @Published var audioMuted = false { didSet { mute(.audio, audioMuted) } }
     @Published var videoMuted = false { didSet { mute(.video, videoMuted) } }
     @Published var remoteAudioMuted = false { didSet { mute(.remoteAudio, remoteAudioMuted) } }
@@ -72,6 +73,9 @@ class EyesonCoordinator: ObservableObject {
     @Published var chatMessages = [ChatMessage]()
     @Published var audioParticipants = 0
     @Published var isPresenter = false { didSet { setPresenter(isPresenter) } }
+    @Published var overlayImage: UIImage? { didSet {
+        overlayImage != nil ? meeting?.addLayer(image: overlayImage!, index: 1) : meeting?.removeLayer(index: 1)
+    } }
         
     private var meeting: EyesonMeeting?
     private var statsTimer: Timer?
@@ -104,6 +108,14 @@ class EyesonCoordinator: ObservableObject {
     
     func muteAll() {
         meeting?.muteAll()
+    }
+    
+    func lock() {
+        meeting?.lock()
+    }
+    
+    func snapshot() {
+        meeting?.snapshot()
     }
     
     func send(chat message: String) {
@@ -190,6 +202,7 @@ extension EyesonCoordinator: EyesonDelegate {
         case is Eyeson.Event.Recording:
             
             guard let recording = event as? Eyeson.Event.Recording else { return }
+            print(recording)
             let active = recording.duration == nil && recording.links.download == nil
             messages.append(LogMessage(primaryInfo: "Recording", secondaryInfo: "active: \(active) - ready: \(recording.links.download != nil)"))
         

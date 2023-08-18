@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name EyesonSdk_Screencast
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import EyesonSdk_Screencast
@@ -7,7 +7,6 @@ import ReplayKit
 import Swift
 import UIKit
 import VideoToolbox
-import WebRTC
 import _Concurrency
 import _StringProcessing
 @objc @_inheritsConvenienceInitializers open class EyesonScreencastHandler : ReplayKit.RPBroadcastSampleHandler {
