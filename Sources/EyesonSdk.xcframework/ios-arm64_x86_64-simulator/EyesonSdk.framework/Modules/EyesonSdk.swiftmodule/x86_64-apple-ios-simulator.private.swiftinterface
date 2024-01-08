@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name EyesonSdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -16,6 +16,7 @@ import VideoToolbox
 import WebRTC
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import zlib
 extension EyesonSdk.Socket {
   public func writeFile(_ file: Swift.String.File) throws
@@ -61,12 +62,10 @@ extension EyesonSdk.Eyeson.Event {
     public var video: Swift.Bool
     public var p2p: Swift.Bool
   }
-  public struct Chat : EyesonSdk.EyesonEvent, Swift.Identifiable {
-    public var id: Swift.String
+  public struct Chat : EyesonSdk.EyesonEvent {
     public var timestamp: Foundation.Date
     public var user: EyesonSdk.Eyeson.User
     public var message: Swift.String
-    public typealias ID = Swift.String
   }
   public struct Custom : Swift.Codable, EyesonSdk.EyesonEvent {
     public var content: Swift.String

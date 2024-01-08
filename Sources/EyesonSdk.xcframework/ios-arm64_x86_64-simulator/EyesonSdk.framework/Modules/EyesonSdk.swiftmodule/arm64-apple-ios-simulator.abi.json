@@ -23012,91 +23012,6 @@
                 "children": [
                   {
                     "kind": "Var",
-                    "name": "id",
-                    "printedName": "id",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:9EyesonSdk0A0C5EventV4ChatV2idSSvp",
-                    "mangledName": "$s9EyesonSdk0A0C5EventV4ChatV2idSSvp",
-                    "moduleName": "EyesonSdk",
-                    "declAttributes": [
-                      "HasStorage",
-                      "AccessControl"
-                    ],
-                    "hasStorage": true,
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:9EyesonSdk0A0C5EventV4ChatV2idSSvg",
-                        "mangledName": "$s9EyesonSdk0A0C5EventV4ChatV2idSSvg",
-                        "moduleName": "EyesonSdk",
-                        "implicit": true,
-                        "accessorKind": "get"
-                      },
-                      {
-                        "kind": "Accessor",
-                        "name": "Set",
-                        "printedName": "Set()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:9EyesonSdk0A0C5EventV4ChatV2idSSvs",
-                        "mangledName": "$s9EyesonSdk0A0C5EventV4ChatV2idSSvs",
-                        "moduleName": "EyesonSdk",
-                        "implicit": true,
-                        "accessorKind": "set"
-                      },
-                      {
-                        "kind": "Accessor",
-                        "name": "Modify",
-                        "printedName": "Modify()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:9EyesonSdk0A0C5EventV4ChatV2idSSvM",
-                        "mangledName": "$s9EyesonSdk0A0C5EventV4ChatV2idSSvM",
-                        "moduleName": "EyesonSdk",
-                        "implicit": true,
-                        "accessorKind": "_modify"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "Var",
                     "name": "timestamp",
                     "printedName": "timestamp",
                     "children": [
@@ -23366,28 +23281,6 @@
                     "printedName": "EyesonEvent",
                     "usr": "s:9EyesonSdk0A5EventP",
                     "mangledName": "$s9EyesonSdk0A5EventP"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "Identifiable",
-                    "printedName": "Identifiable",
-                    "children": [
-                      {
-                        "kind": "TypeWitness",
-                        "name": "ID",
-                        "printedName": "ID",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:s12IdentifiableP",
-                    "mangledName": "$ss12IdentifiableP"
                   }
                 ]
               },
@@ -36321,6 +36214,16 @@
                 "mangledName": "$s9EyesonSdk15WebSocketServerC7onEventyAA0eG0OcSgvM",
                 "moduleName": "EyesonSdk",
                 "implicit": true,
+                "intro_Macosx": "10.14",
+                "intro_iOS": "12.0",
+                "intro_tvOS": "12.0",
+                "intro_watchOS": "5.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -36595,6 +36498,16 @@
                 "mangledName": "$s9EyesonSdk16ServerConnectionC7onEventyAA0dF0OcSgvM",
                 "moduleName": "EyesonSdk",
                 "implicit": true,
+                "intro_Macosx": "10.14",
+                "intro_iOS": "12.0",
+                "intro_tvOS": "12.0",
+                "intro_watchOS": "5.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -36698,6 +36611,16 @@
                 "mangledName": "$s9EyesonSdk16ServerConnectionC8delegateAA0D8Delegate_pSgvM",
                 "moduleName": "EyesonSdk",
                 "implicit": true,
+                "intro_Macosx": "10.14",
+                "intro_iOS": "12.0",
+                "intro_tvOS": "12.0",
+                "intro_watchOS": "5.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -60152,6 +60075,28 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -61419,6 +61364,41 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -61792,6 +61772,28 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -62425,48 +62427,39 @@
           },
           {
             "kind": "Conformance",
-            "name": "DataProtocol",
-            "printedName": "DataProtocol",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "Regions",
-                "printedName": "Regions",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CollectionOfOne",
-                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.UInt8]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UInt8",
-                            "printedName": "Swift.UInt8",
-                            "usr": "s:s5UInt8V"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:s15CollectionOfOneV"
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
                   }
                 ]
               }
             ],
-            "usr": "s:10Foundation12DataProtocolP",
-            "mangledName": "$s10Foundation12DataProtocolP"
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
           },
           {
             "kind": "Conformance",
-            "name": "MutableDataProtocol",
-            "printedName": "MutableDataProtocol",
-            "usr": "s:10Foundation19MutableDataProtocolP",
-            "mangledName": "$s10Foundation19MutableDataProtocolP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
           },
           {
             "kind": "Conformance",
@@ -62512,39 +62505,48 @@
           },
           {
             "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
+                "name": "Regions",
+                "printedName": "Regions",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "NSArray",
-                    "printedName": "Foundation.NSArray",
-                    "usr": "c:objc(cs)NSArray"
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
                   }
                 ]
               }
             ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
           },
           {
             "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ContiguousBytes",
-            "printedName": "ContiguousBytes",
-            "usr": "s:10Foundation15ContiguousBytesP",
-            "mangledName": "$s10Foundation15ContiguousBytesP"
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
           }
         ]
       },
@@ -62777,6 +62779,16 @@
         "usr": "s:10Foundation3URLV",
         "mangledName": "$s10Foundation3URLV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
           {
@@ -62885,6 +62897,41 @@
             "printedName": "_ExpressibleByFileReferenceLiteral",
             "usr": "s:s34_ExpressibleByFileReferenceLiteralP",
             "mangledName": "$ss34_ExpressibleByFileReferenceLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -63575,581 +63622,581 @@
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 5008,
+      "offset": 4964,
       "length": 9,
       "value": "\"content\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 5841,
+      "offset": 5797,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 5841,
+      "offset": 5797,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 6163,
+      "offset": 6119,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 6163,
+      "offset": 6119,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 6365,
+      "offset": 6321,
       "length": 11,
       "value": "\"snapshots\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 6365,
+      "offset": 6321,
       "length": 11,
       "value": "\"snapshots\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 6877,
+      "offset": 6833,
       "length": 9,
       "value": "\"creator\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 6920,
+      "offset": 6876,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 6877,
+      "offset": 6833,
       "length": 9,
       "value": "\"creator\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 6920,
+      "offset": 6876,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 7143,
+      "offset": 7099,
       "length": 12,
       "value": "\"broadcasts\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 7143,
+      "offset": 7099,
       "length": 12,
       "value": "\"broadcasts\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 7507,
+      "offset": 7463,
       "length": 12,
       "value": "\"player_url\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 7507,
+      "offset": 7463,
       "length": 12,
       "value": "\"player_url\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 7754,
+      "offset": 7710,
       "length": 9,
       "value": "\"playing\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 7754,
+      "offset": 7710,
       "length": 9,
       "value": "\"playing\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 8083,
+      "offset": 8039,
       "length": 9,
       "value": "\"play_id\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 8181,
+      "offset": 8137,
       "length": 16,
       "value": "\"replacement_id\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 8083,
+      "offset": 8039,
       "length": 9,
       "value": "\"play_id\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 8181,
+      "offset": 8137,
       "length": 16,
       "value": "\"replacement_id\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "IntegerLiteral",
-      "offset": 8440,
+      "offset": 8396,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "IntegerLiteral",
-      "offset": 8482,
+      "offset": 8438,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "IntegerLiteral",
-      "offset": 8527,
+      "offset": 8483,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "IntegerLiteral",
-      "offset": 8563,
+      "offset": 8519,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "IntegerLiteral",
-      "offset": 8606,
+      "offset": 8562,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "IntegerLiteral",
-      "offset": 8652,
+      "offset": 8608,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "IntegerLiteral",
-      "offset": 8738,
+      "offset": 8694,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "IntegerLiteral",
-      "offset": 8783,
+      "offset": 8739,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10022,
+      "offset": 9978,
       "length": 13,
       "value": "\"reject_code\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10064,
+      "offset": 10020,
       "length": 11,
       "value": "\"term_code\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10022,
+      "offset": 9978,
       "length": 13,
       "value": "\"reject_code\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10064,
+      "offset": 10020,
       "length": 11,
       "value": "\"term_code\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10416,
+      "offset": 10372,
       "length": 5,
       "value": "\"src\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10449,
+      "offset": 10405,
       "length": 6,
       "value": "\"vsrc\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10485,
+      "offset": 10441,
       "length": 6,
       "value": "\"psrc\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10416,
+      "offset": 10372,
       "length": 5,
       "value": "\"src\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10449,
+      "offset": 10405,
       "length": 6,
       "value": "\"vsrc\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10485,
+      "offset": 10441,
       "length": 6,
       "value": "\"psrc\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10833,
+      "offset": 10789,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10844,
+      "offset": 10800,
       "length": 6,
       "value": "\"stfu\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10852,
+      "offset": 10808,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 10862,
+      "offset": 10818,
       "length": 6,
       "value": "\"stfu\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11100,
+      "offset": 11056,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11108,
+      "offset": 11064,
       "length": 12,
       "value": "\"call_start\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11122,
+      "offset": 11078,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11132,
+      "offset": 11088,
       "length": 5,
       "value": "\"sdp\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11158,
+      "offset": 11114,
       "length": 5,
       "value": "\"sdp\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11172,
+      "offset": 11128,
       "length": 14,
       "value": "\"display_name\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11201,
+      "offset": 11157,
       "length": 12,
       "value": "\"mute_video\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11365,
+      "offset": 11321,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11373,
+      "offset": 11329,
       "length": 16,
       "value": "\"call_terminate\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11391,
+      "offset": 11347,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11401,
+      "offset": 11357,
       "length": 11,
       "value": "\"term_code\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11587,
+      "offset": 11543,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11595,
+      "offset": 11551,
       "length": 15,
       "value": "\"set_presenter\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11612,
+      "offset": 11568,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11622,
+      "offset": 11578,
       "length": 5,
       "value": "\"cid\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11634,
+      "offset": 11590,
       "length": 4,
       "value": "\"on\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11817,
+      "offset": 11773,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11825,
+      "offset": 11781,
       "length": 18,
       "value": "\"desktopstreaming\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11845,
+      "offset": 11801,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11855,
+      "offset": 11811,
       "length": 5,
       "value": "\"cid\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11867,
+      "offset": 11823,
       "length": 4,
       "value": "\"on\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 12039,
+      "offset": 11995,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 12047,
+      "offset": 12003,
       "length": 12,
       "value": "\"mute_video\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 12061,
+      "offset": 12017,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 12071,
+      "offset": 12027,
       "length": 5,
       "value": "\"cid\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 12083,
+      "offset": 12039,
       "length": 4,
       "value": "\"on\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 12306,
+      "offset": 12246,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 12314,
+      "offset": 12254,
       "length": 6,
       "value": "\"chat\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 12322,
+      "offset": 12262,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 12332,
+      "offset": 12272,
       "length": 5,
       "value": "\"cid\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 12344,
+      "offset": 12284,
       "length": 9,
       "value": "\"content\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 13263,
+      "offset": 13203,
       "length": 7,
       "value": "\"offer\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 13481,
+      "offset": 13421,
       "length": 7,
       "value": "\"offer\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 13491,
+      "offset": 13431,
       "length": 8,
       "value": "\"answer\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 13521,
+      "offset": 13461,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 13529,
+      "offset": 13469,
       "length": 12,
       "value": "\"sdp_update\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 13543,
+      "offset": 13483,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 13553,
+      "offset": 13493,
       "length": 5,
       "value": "\"sdp\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 13562,
+      "offset": 13502,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 13573,
+      "offset": 13513,
       "length": 5,
       "value": "\"sdp\""
     },
@@ -66095,140 +66142,133 @@
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 2091,
-      "length": 6,
-      "value": "\"chat\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
-      "kind": "StringLiteral",
-      "offset": 2131,
+      "offset": 2110,
       "length": 9,
       "value": "\"content\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 2155,
+      "offset": 2134,
       "length": 18,
       "value": "\"recording_update\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 2207,
+      "offset": 2186,
       "length": 11,
       "value": "\"recording\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 2588,
+      "offset": 2567,
       "length": 41,
       "value": "\"Room Websocket did receive data \""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 2628,
+      "offset": 2607,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 2733,
+      "offset": 2712,
       "length": 35,
       "value": "\"Websocket subscribing to \""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 2767,
+      "offset": 2746,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 2912,
+      "offset": 2891,
       "length": 39,
       "value": "\"Websocket unsubscribing from \""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 2950,
+      "offset": 2929,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 3261,
+      "offset": 3240,
       "length": 54,
       "value": "\"{\"channel\":\"RoomChannel\",\"token\":\"\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 3311,
+      "offset": 3290,
       "length": 1,
       "value": "\"\"}\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "Dictionary",
-      "offset": 3354,
+      "offset": 3333,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 3434,
+      "offset": 3413,
       "length": 9,
       "value": "\"command\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 3479,
+      "offset": 3458,
       "length": 12,
       "value": "\"identifier\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 3699,
+      "offset": 3678,
       "length": 9,
       "value": "\"command\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 3710,
+      "offset": 3689,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 3737,
+      "offset": 3716,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 3776,
+      "offset": 3755,
       "length": 12,
       "value": "\"identifier\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/WebsocketCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 3931,
+      "offset": 3910,
       "length": 28,
       "value": "\"Websocket sending message:\""
     },
@@ -70099,21 +70139,21 @@
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/EyesonMeeting.swift",
       "kind": "Array",
-      "offset": 10927,
+      "offset": 10831,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/EyesonMeeting.swift",
       "kind": "Array",
-      "offset": 10938,
+      "offset": 10842,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/EyesonMeeting.swift",
       "kind": "StringLiteral",
-      "offset": 13820,
+      "offset": 13569,
       "length": 25,
       "value": "\"sdpReady => making call\""
     },
@@ -71100,98 +71140,91 @@
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "StringLiteral",
-      "offset": 218,
-      "length": 3,
-      "value": "\"@\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 362,
+      "offset": 243,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 616,
+      "offset": 497,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 735,
+      "offset": 616,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "StringLiteral",
-      "offset": 879,
+      "offset": 760,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 902,
+      "offset": 783,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "StringLiteral",
-      "offset": 995,
+      "offset": 876,
       "length": 4,
       "value": "\"m=\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 914,
       "length": 19,
       "value": "\"a=sfu-capable\r\n\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1084,
+      "offset": 965,
       "length": 31,
       "value": "\"a=eyeson-datachan-capable\r\n\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1147,
+      "offset": 1028,
       "length": 33,
       "value": "\"a=eyeson-datachan-keepalive\r\n\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1212,
+      "offset": 1093,
       "length": 29,
       "value": "\"a=eyeson-sepp-messaging\r\n\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 1267,
+      "offset": 1148,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1312,
+      "offset": 1193,
       "length": 8,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SdpUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1317,
+      "offset": 1198,
       "length": 1,
       "value": "\"\n\""
     },

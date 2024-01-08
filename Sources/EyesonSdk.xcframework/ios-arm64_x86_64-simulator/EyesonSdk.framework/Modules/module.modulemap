@@ -1,7 +1,7 @@
 framework module EyesonSdk {
   umbrella header "EyesonSdk.h"
-
   export *
+
   module * { export * }
 }
 
