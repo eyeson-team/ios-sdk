@@ -222,8 +222,7 @@ extension EyesonCoordinator: EyesonDelegate {
             let message = LogMessage(primaryInfo: chat.user.name,
                                           secondaryInfo: chat.message)
             messages.append(message)
-            chatMessages.append(ChatMessage(id: chat.id,
-                                            timestamp: chat.timestamp,
+            chatMessages.append(ChatMessage(timestamp: chat.timestamp,
                                             user: chat.user,
                                             isMe: chat.user.id == meeting.user.id,
                                             message: chat.message))

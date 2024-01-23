@@ -8,7 +8,8 @@
 import EyesonSdk
 
 struct ChatMessage: Identifiable {
-    var id: String
+    var id: Date { timestamp }
+    
     var timestamp: Date
     var user: Eyeson.User
     var isMe: Bool
