@@ -1,7 +1,7 @@
 framework module EyesonSdk_Screencast {
   umbrella header "EyesonSdk_Screencast.h"
-
   export *
+
   module * { export * }
 }
 

@@ -87,7 +87,7 @@ extension EyesonSdk.Eyeson.Event {
     public var duration: Swift.Double?
     public var links: EyesonSdk.Eyeson.Event.Recording.Links
     public var user: EyesonSdk.Eyeson.User
-    public var createdAt: Foundation.Date
+    public var createdAt: Swift.Int
     public struct Links : Swift.Codable {
       public var download: Foundation.URL?
       public func encode(to encoder: any Swift.Encoder) throws
@@ -144,10 +144,11 @@ extension EyesonSdk.Eyeson.Event {
     public var items: [EyesonSdk.Eyeson.Event.Playback.Item]
     public struct Item : Swift.Codable, Swift.Identifiable {
       public var id: Swift.String
-      public var name: Swift.String
+      public var name: Swift.String?
       public var url: Foundation.URL
-      public var replacementId: Swift.String
+      public var replacementId: Swift.String?
       public var audio: Swift.Bool
+      public var loopCount: Swift.Int
       public typealias ID = Swift.String
       public func encode(to encoder: any Swift.Encoder) throws
       public init(from decoder: any Swift.Decoder) throws
