@@ -22,15 +22,15 @@
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		PCcaKG8v7vnU/dP4q+Nvzm9m2G4=
+		ncxT2Hj0e/82u2+hi/nidhJYbvM=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		yleVm4MM0TcVZrvaLMtMU7+t+Jg=
+		yqzf4e5kJ+1D3PEbody3/U6gCeA=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		XhtgIbZ7qvxNHiLrVi7qVY6Ce7Y=
+		W24A4RZCzoBP1vyTVPcDDROjxaw=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		XhtgIbZ7qvxNHiLrVi7qVY6Ce7Y=
+		W24A4RZCzoBP1vyTVPcDDROjxaw=
 		</data>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -108,21 +108,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a2lB0Rtntm0cV07cvrsJNrCM/LbXtw2n7aIxTwGNbwM=
+			ONw97yyRjxwnnEehZwYvCTK1nXbEzn0TD5hbxpvVHQI=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nkwuvWW2VomZCzqmCXBAyY5+n/mPLFMNcGd3EuSRlr8=
+			KaYY7TIykd7VHYBsdXsIbugJi+IdZpsNl7A5mUQro5o=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Oc72/7dxY4uqmELTkYgtudalEwS0Xupl7ZY87cpYoU=
+			0cj6/inFfz0qtNZ6hHzP2NXwwv0B2uDiMDbkmUdEiJ0=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -157,7 +157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Oc72/7dxY4uqmELTkYgtudalEwS0Xupl7ZY87cpYoU=
+			0cj6/inFfz0qtNZ6hHzP2NXwwv0B2uDiMDbkmUdEiJ0=
 			</data>
 		</dict>
 		<key>Modules/EyesonSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

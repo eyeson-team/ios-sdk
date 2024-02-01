@@ -66096,20 +66096,27 @@
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/SignalingCommunicator.swift",
       "kind": "StringLiteral",
       "offset": 3829,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/SignalingCommunicator.swift",
+      "kind": "StringLiteral",
+      "offset": 3837,
       "length": 9,
       "value": "\"call_id\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/SignalingCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 4153,
+      "offset": 4161,
       "length": 46,
       "value": "\"Signaling Websocket did receive data \""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/SignalingCommunicator.swift",
       "kind": "StringLiteral",
-      "offset": 4198,
+      "offset": 4206,
       "length": 2,
       "value": "\"\""
     },

@@ -699,7 +699,7 @@
 			repositoryURL = "https://github.com/eyeson-team/ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.3;
+				minimumVersion = 1.2.4;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

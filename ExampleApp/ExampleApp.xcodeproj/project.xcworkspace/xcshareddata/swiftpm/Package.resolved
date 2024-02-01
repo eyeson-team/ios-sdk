@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/eyeson-team/ios-sdk",
       "state" : {
-        "revision" : "e7508c51c2fe85521cb91d6a158fda9155896077",
-        "version" : "1.2.3"
+        "revision" : "e2086a737bb8753c9f540f56f0524c8721935011",
+        "version" : "1.2.4"
       }
     }
   ],
