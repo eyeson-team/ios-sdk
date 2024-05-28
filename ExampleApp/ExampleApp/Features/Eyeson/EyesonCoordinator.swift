@@ -184,7 +184,7 @@ extension EyesonCoordinator: EyesonDelegate {
             
             guard let mode = event as? Eyeson.Event.Mode else { return }
             self.showsLocalVideoView = mode.p2p
-            messages.append(LogMessage(primaryInfo: "Audio only", secondaryInfo: "\(mode.video)"))
+            messages.append(LogMessage(primaryInfo: "Audio only", secondaryInfo: "\(!mode.video)"))
             messages.append(LogMessage(primaryInfo: "P2P", secondaryInfo: "\(mode.p2p)"))
         
         case is Eyeson.Event.Locked:
