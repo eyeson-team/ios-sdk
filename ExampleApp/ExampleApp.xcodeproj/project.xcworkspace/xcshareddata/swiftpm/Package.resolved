@@ -1,14 +1,15 @@
 {
+  "originHash" : "bcef246f1cf59d5365247b8c7ae81cdbc949ccda2ad5f3375c4efb205c96b498",
   "pins" : [
     {
       "identity" : "ios-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/eyeson-team/ios-sdk",
       "state" : {
-        "revision" : "a4132121dccb826a18de77ad509727050741c800",
-        "version" : "1.0.7"
+        "revision" : "d54e464949b27c6d8732abbcc2c7d8bdb38b6855",
+        "version" : "1.3.0"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

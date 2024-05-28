@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D326F346E88531F44DBA46B /* Pods_ExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3452AED383A0B3E2A5F603DC /* Pods_ExampleApp.framework */; };
 		B52CEBA028EAF36800FA8090 /* DesignUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52CEB9F28EAF36800FA8090 /* DesignUtils.swift */; };
 		B532363E276D0BD20066A3C6 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B532363D276D0BD20066A3C6 /* LogView.swift */; };
 		B538E67B28EC8D6900FA92B1 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B538E67A28EC8D6900FA92B1 /* ChatView.swift */; };
@@ -29,9 +28,10 @@
 		B5866DA428EB179C009D9B4B /* EyesonMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5866DA328EB179C009D9B4B /* EyesonMenu.swift */; };
 		B5866DA628EB1FE9009D9B4B /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5866DA528EB1FE9009D9B4B /* MenuItem.swift */; };
 		B5866DA928EB2B0B009D9B4B /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5866DA828EB2B0B009D9B4B /* LogMessage.swift */; };
+		B5B02A6B2C05C62300993FC1 /* EyesonSdk in Frameworks */ = {isa = PBXBuildFile; productRef = B5B02A6A2C05C62300993FC1 /* EyesonSdk */; };
+		B5B02A6D2C05C62300993FC1 /* EyesonSdk_Screencast in Frameworks */ = {isa = PBXBuildFile; productRef = B5B02A6C2C05C62300993FC1 /* EyesonSdk_Screencast */; };
 		B5BEFB6E2938E8FF00DBF8EB /* ScreencastPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BEFB6D2938E8FF00DBF8EB /* ScreencastPickerView.swift */; };
 		B5D0F6FF2A8CC49D00D14429 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0F6FE2A8CC49D00D14429 /* ImagePicker.swift */; };
-		E8A1461BFB08F36A73E84F4D /* Pods_BroadcastExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E68B6B834C316DED7794BF /* Pods_BroadcastExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +59,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0D8510BB93B386DDEE689892 /* Pods-BroadcastExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroadcastExtension.release.xcconfig"; path = "Target Support Files/Pods-BroadcastExtension/Pods-BroadcastExtension.release.xcconfig"; sourceTree = "<group>"; };
-		1C29CB2E3D7D814D8680861F /* Pods-ExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-ExampleApp/Pods-ExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
-		3452AED383A0B3E2A5F603DC /* Pods_ExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44E68B6B834C316DED7794BF /* Pods_BroadcastExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BroadcastExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52CEB9F28EAF36800FA8090 /* DesignUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignUtils.swift; sourceTree = "<group>"; };
 		B532363D276D0BD20066A3C6 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
 		B538E67A28EC8D6900FA92B1 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
@@ -93,8 +89,6 @@
 		B5BEFB6D2938E8FF00DBF8EB /* ScreencastPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreencastPickerView.swift; sourceTree = "<group>"; };
 		B5D0F6FE2A8CC49D00D14429 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B5E96F5A28FD7AE600B08CA5 /* WebRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebRTC.xcframework; path = ../WebRTC.xcframework; sourceTree = "<group>"; };
-		CEBFE65F3A036F7385033957 /* Pods-ExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleApp.release.xcconfig"; path = "Target Support Files/Pods-ExampleApp/Pods-ExampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		F7D21D23CEBAEFFC0C94F9A0 /* Pods-BroadcastExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroadcastExtension.debug.xcconfig"; path = "Target Support Files/Pods-BroadcastExtension/Pods-BroadcastExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55BD289292F70C900D64043 /* ReplayKit.framework in Frameworks */,
-				E8A1461BFB08F36A73E84F4D /* Pods_BroadcastExtension.framework in Frameworks */,
+				B5B02A6D2C05C62300993FC1 /* EyesonSdk_Screencast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,32 +105,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D326F346E88531F44DBA46B /* Pods_ExampleApp.framework in Frameworks */,
+				B5B02A6B2C05C62300993FC1 /* EyesonSdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9FF8B922A5E2E5DDB02E5157 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F7D21D23CEBAEFFC0C94F9A0 /* Pods-BroadcastExtension.debug.xcconfig */,
-				0D8510BB93B386DDEE689892 /* Pods-BroadcastExtension.release.xcconfig */,
-				1C29CB2E3D7D814D8680861F /* Pods-ExampleApp.debug.xcconfig */,
-				CEBFE65F3A036F7385033957 /* Pods-ExampleApp.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		AED56B27D0595423F7CE5233 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				B5A3654E290A7E3000A1E4F5 /* WebRTCBundle.xcframework */,
 				B5E96F5A28FD7AE600B08CA5 /* WebRTC.xcframework */,
 				B55BD288292F70C900D64043 /* ReplayKit.framework */,
-				44E68B6B834C316DED7794BF /* Pods_BroadcastExtension.framework */,
-				3452AED383A0B3E2A5F603DC /* Pods_ExampleApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,7 +198,6 @@
 				B574954D27678B7E00CDC259 /* ExampleApp */,
 				B55BD28A292F70C900D64043 /* BroadcastExtension */,
 				B574954C27678B7E00CDC259 /* Products */,
-				9FF8B922A5E2E5DDB02E5157 /* Pods */,
 				AED56B27D0595423F7CE5233 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -287,7 +267,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B55BD294292F70C900D64043 /* Build configuration list for PBXNativeTarget "BroadcastExtension" */;
 			buildPhases = (
-				B935C72E0BA233294966A5FB /* [CP] Check Pods Manifest.lock */,
 				B55BD283292F70C900D64043 /* Sources */,
 				B55BD284292F70C900D64043 /* Frameworks */,
 				B55BD285292F70C900D64043 /* Resources */,
@@ -297,6 +276,9 @@
 			dependencies = (
 			);
 			name = BroadcastExtension;
+			packageProductDependencies = (
+				B5B02A6C2C05C62300993FC1 /* EyesonSdk_Screencast */,
+			);
 			productName = BroadcastExtension;
 			productReference = B55BD287292F70C900D64043 /* BroadcastExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -305,12 +287,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B574955927678B7F00CDC259 /* Build configuration list for PBXNativeTarget "ExampleApp" */;
 			buildPhases = (
-				069F44A6516E301CA488D2EB /* [CP] Check Pods Manifest.lock */,
 				B574954727678B7E00CDC259 /* Sources */,
 				B574954827678B7E00CDC259 /* Frameworks */,
 				B574954927678B7E00CDC259 /* Resources */,
 				B55BD291292F70C900D64043 /* Embed Foundation Extensions */,
-				B4AC423AA0A1A131B6906961 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -318,6 +298,9 @@
 				B55BD28F292F70C900D64043 /* PBXTargetDependency */,
 			);
 			name = ExampleApp;
+			packageProductDependencies = (
+				B5B02A6A2C05C62300993FC1 /* EyesonSdk */,
+			);
 			productName = ExampleApp;
 			productReference = B574954B27678B7E00CDC259 /* ExampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -349,6 +332,9 @@
 				Base,
 			);
 			mainGroup = B574954227678B7E00CDC259;
+			packageReferences = (
+				B5B02A692C05C62300993FC1 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+			);
 			productRefGroup = B574954C27678B7E00CDC259 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -377,70 +363,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		069F44A6516E301CA488D2EB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExampleApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B4AC423AA0A1A131B6906961 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExampleApp/Pods-ExampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExampleApp/Pods-ExampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleApp/Pods-ExampleApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B935C72E0BA233294966A5FB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BroadcastExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B55BD283292F70C900D64043 /* Sources */ = {
@@ -489,7 +411,6 @@
 /* Begin XCBuildConfiguration section */
 		B55BD292292F70C900D64043 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7D21D23CEBAEFFC0C94F9A0 /* Pods-BroadcastExtension.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = BroadcastExtension/BroadcastExtension.entitlements;
@@ -519,7 +440,6 @@
 		};
 		B55BD293292F70C900D64043 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D8510BB93B386DDEE689892 /* Pods-BroadcastExtension.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = BroadcastExtension/BroadcastExtension.entitlements;
@@ -667,7 +587,6 @@
 		};
 		B574955A27678B7F00CDC259 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C29CB2E3D7D814D8680861F /* Pods-ExampleApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -706,7 +625,6 @@
 		};
 		B574955B27678B7F00CDC259 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEBFE65F3A036F7385033957 /* Pods-ExampleApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -774,6 +692,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5B02A692C05C62300993FC1 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eyeson-team/ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5B02A6A2C05C62300993FC1 /* EyesonSdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5B02A692C05C62300993FC1 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = EyesonSdk;
+		};
+		B5B02A6C2C05C62300993FC1 /* EyesonSdk_Screencast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5B02A692C05C62300993FC1 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = EyesonSdk_Screencast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B574954327678B7E00CDC259 /* Project object */;
 }
