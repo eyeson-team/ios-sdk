@@ -102,6 +102,12 @@ class EyesonCoordinator: ObservableObject {
                            completion: didJoin)
     }
     
+    func start(permalink userToken: String) {
+        isLoading = true
+        Eyeson.shared.start(permalink: userToken,
+                            completion: didJoin)
+    }
+    
     func mute(_ device: Eyeson.Device, _ mute: Bool) {
         meeting?.mute(device, mute)
     }

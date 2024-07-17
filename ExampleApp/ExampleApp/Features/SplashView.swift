@@ -13,6 +13,7 @@ struct SplashView: View {
     
     @State private var accessKey: String = ""
     @State private var guestToken: String = ""
+    @State private var permalinkUserToken: String = ""
     @State private var name: String = UIDevice.current.name
     @State private var showsScanner = false
     
@@ -26,6 +27,11 @@ struct SplashView: View {
     private func joinMeeting() {
         if accessKey != "" {
             coordinator.load(accessKey: accessKey)
+            return
+        }
+        
+        if permalinkUserToken != "" {
+            coordinator.start(permalink: permalinkUserToken)
             return
         }
         
@@ -76,6 +82,13 @@ struct SplashView: View {
                     })
                         .buttonStyle(SdkButtonStyleSecondary())
                         .padding(.bottom, 16)
+                    
+                    Text("... or join via permalink user token.")
+                        .font(.system(size: 15))
+                        .padding(.vertical, 8)
+                    
+                    TextField("", text: $permalinkUserToken)
+                        .textFieldStyle(SdkTextFieldStyle(label: "Permalink User Token"))
                 }
             }
             
