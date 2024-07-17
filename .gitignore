@@ -2,5 +2,7 @@
 Sources/EyesonSdk.xcframework/ios-arm64/EyesonSdk.framework/Development.plist
 Sources/EyesonSdk.xcframework/ios-arm64/EyesonSdk.framework/Staging.plist
 FrameworkCreator.sh
+ExampleApp/Pod*
+ExampleApp/ExampleApp-local*
 
 

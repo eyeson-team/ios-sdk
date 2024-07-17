@@ -20237,6 +20237,80 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(permalink:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any EyesonSdk.EyesonMeeting)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EyesonMeeting",
+                            "printedName": "any EyesonSdk.EyesonMeeting",
+                            "usr": "s:9EyesonSdk0A7MeetingP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "EyesonSdk.Eyeson.Event.Terminated?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Terminated",
+                            "printedName": "EyesonSdk.Eyeson.Event.Terminated",
+                            "usr": "s:9EyesonSdk0A0C5EventV10TerminatedV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9EyesonSdk0A3SDKP5start9permalink10completionySS_yAA0A7Meeting_pSg_AA0A0C5EventV10TerminatedVSgtctF",
+            "mangledName": "$s9EyesonSdk0A3SDKP5start9permalink10completionySS_yAA0A7Meeting_pSg_AA0A0C5EventV10TerminatedVSgtctF",
+            "moduleName": "EyesonSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : EyesonSdk.EyesonSDK>",
+            "sugared_genericSig": "<Self where Self : EyesonSdk.EyesonSDK>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -22075,6 +22149,79 @@
             "declKind": "Func",
             "usr": "s:9EyesonSdk0A0C4join_4name5video6camera0E5Muted05audioG010completionySS_SSSbSo23AVCaptureDevicePositionVS2byAA0A7Meeting_pSg_AC5EventV10TerminatedVSgtctF",
             "mangledName": "$s9EyesonSdk0A0C4join_4name5video6camera0E5Muted05audioG010completionySS_SSSbSo23AVCaptureDevicePositionVS2byAA0A7Meeting_pSg_AC5EventV10TerminatedVSgtctF",
+            "moduleName": "EyesonSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(permalink:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any EyesonSdk.EyesonMeeting)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EyesonMeeting",
+                            "printedName": "any EyesonSdk.EyesonMeeting",
+                            "usr": "s:9EyesonSdk0A7MeetingP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "EyesonSdk.Eyeson.Event.Terminated?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Terminated",
+                            "printedName": "EyesonSdk.Eyeson.Event.Terminated",
+                            "usr": "s:9EyesonSdk0A0C5EventV10TerminatedV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9EyesonSdk0A0C5start9permalink10completionySS_yAA0A7Meeting_pSg_AC5EventV10TerminatedVSgtctF",
+            "mangledName": "$s9EyesonSdk0A0C5start9permalink10completionySS_yAA0A7Meeting_pSg_AC5EventV10TerminatedVSgtctF",
             "moduleName": "EyesonSdk",
             "declAttributes": [
               "AccessControl"

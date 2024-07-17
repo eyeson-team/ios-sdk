@@ -934,6 +934,7 @@ public protocol EyesonSDK {
   func join(_ accessKey: Swift.String, video: Swift.Bool, camera: AVFoundation.AVCaptureDevice.Position, videoMuted: Swift.Bool, audioMuted: Swift.Bool, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
   func join(_ guestToken: Swift.String, name: Swift.String, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
   func join(_ guestToken: Swift.String, name: Swift.String, video: Swift.Bool, camera: AVFoundation.AVCaptureDevice.Position, videoMuted: Swift.Bool, audioMuted: Swift.Bool, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  func start(permalink userToken: Swift.String, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
 }
 public protocol EyesonDelegate {
   func eyeson(_ meeting: any EyesonSdk.EyesonMeeting, didReceive event: any EyesonSdk.EyesonEvent)
@@ -980,6 +981,7 @@ public protocol EyesonMeeting {
   public func join(_ guestToken: Swift.String, name: Swift.String, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
   public func join(_ accessKey: Swift.String, video: Swift.Bool, camera: AVFoundation.AVCaptureDevice.Position, videoMuted: Swift.Bool, audioMuted: Swift.Bool, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
   public func join(_ guestToken: Swift.String, name: Swift.String, video: Swift.Bool, camera: AVFoundation.AVCaptureDevice.Position, videoMuted: Swift.Bool, audioMuted: Swift.Bool, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  public func start(permalink userToken: Swift.String, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
   @objc deinit
 }
 extension EyesonSdk.Eyeson {

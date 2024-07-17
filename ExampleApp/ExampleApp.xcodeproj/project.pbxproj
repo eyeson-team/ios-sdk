@@ -28,8 +28,8 @@
 		B5866DA428EB179C009D9B4B /* EyesonMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5866DA328EB179C009D9B4B /* EyesonMenu.swift */; };
 		B5866DA628EB1FE9009D9B4B /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5866DA528EB1FE9009D9B4B /* MenuItem.swift */; };
 		B5866DA928EB2B0B009D9B4B /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5866DA828EB2B0B009D9B4B /* LogMessage.swift */; };
-		B5B02A6B2C05C62300993FC1 /* EyesonSdk in Frameworks */ = {isa = PBXBuildFile; productRef = B5B02A6A2C05C62300993FC1 /* EyesonSdk */; };
-		B5B02A6D2C05C62300993FC1 /* EyesonSdk_Screencast in Frameworks */ = {isa = PBXBuildFile; productRef = B5B02A6C2C05C62300993FC1 /* EyesonSdk_Screencast */; };
+		B58765002C47D82D001BCD6C /* EyesonSdk in Frameworks */ = {isa = PBXBuildFile; productRef = B58764FF2C47D82D001BCD6C /* EyesonSdk */; };
+		B58765022C47D82D001BCD6C /* EyesonSdk_Screencast in Frameworks */ = {isa = PBXBuildFile; productRef = B58765012C47D82D001BCD6C /* EyesonSdk_Screencast */; };
 		B5BEFB6E2938E8FF00DBF8EB /* ScreencastPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BEFB6D2938E8FF00DBF8EB /* ScreencastPickerView.swift */; };
 		B5D0F6FF2A8CC49D00D14429 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0F6FE2A8CC49D00D14429 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
@@ -84,11 +84,9 @@
 		B5866DA528EB1FE9009D9B4B /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		B5866DA828EB2B0B009D9B4B /* LogMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMessage.swift; sourceTree = "<group>"; };
 		B593700D28FF049E00973B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		B5A3654E290A7E3000A1E4F5 /* WebRTCBundle.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebRTCBundle.xcframework; path = ../WebRTC/WebRTCBundle.xcframework; sourceTree = "<group>"; };
 		B5BEFB192938C6FD00DBF8EB /* ExampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExampleApp.entitlements; sourceTree = "<group>"; };
 		B5BEFB6D2938E8FF00DBF8EB /* ScreencastPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreencastPickerView.swift; sourceTree = "<group>"; };
 		B5D0F6FE2A8CC49D00D14429 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		B5E96F5A28FD7AE600B08CA5 /* WebRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebRTC.xcframework; path = ../WebRTC.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55BD289292F70C900D64043 /* ReplayKit.framework in Frameworks */,
-				B5B02A6D2C05C62300993FC1 /* EyesonSdk_Screencast in Frameworks */,
+				B58765022C47D82D001BCD6C /* EyesonSdk_Screencast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B02A6B2C05C62300993FC1 /* EyesonSdk in Frameworks */,
+				B58765002C47D82D001BCD6C /* EyesonSdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,8 +113,6 @@
 		AED56B27D0595423F7CE5233 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B5A3654E290A7E3000A1E4F5 /* WebRTCBundle.xcframework */,
-				B5E96F5A28FD7AE600B08CA5 /* WebRTC.xcframework */,
 				B55BD288292F70C900D64043 /* ReplayKit.framework */,
 			);
 			name = Frameworks;
@@ -277,7 +273,7 @@
 			);
 			name = BroadcastExtension;
 			packageProductDependencies = (
-				B5B02A6C2C05C62300993FC1 /* EyesonSdk_Screencast */,
+				B58765012C47D82D001BCD6C /* EyesonSdk_Screencast */,
 			);
 			productName = BroadcastExtension;
 			productReference = B55BD287292F70C900D64043 /* BroadcastExtension.appex */;
@@ -299,7 +295,7 @@
 			);
 			name = ExampleApp;
 			packageProductDependencies = (
-				B5B02A6A2C05C62300993FC1 /* EyesonSdk */,
+				B58764FF2C47D82D001BCD6C /* EyesonSdk */,
 			);
 			productName = ExampleApp;
 			productReference = B574954B27678B7E00CDC259 /* ExampleApp.app */;
@@ -333,7 +329,7 @@
 			);
 			mainGroup = B574954227678B7E00CDC259;
 			packageReferences = (
-				B5B02A692C05C62300993FC1 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+				B58764FE2C47D82D001BCD6C /* XCRemoteSwiftPackageReference "ios-sdk" */,
 			);
 			productRefGroup = B574954C27678B7E00CDC259 /* Products */;
 			projectDirPath = "";
@@ -594,7 +590,7 @@
 				CODE_SIGN_ENTITLEMENTS = ExampleApp/ExampleApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 51;
+				CURRENT_PROJECT_VERSION = 50;
 				DEVELOPMENT_ASSET_PATHS = "\"ExampleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9CLSXL2Y8R;
 				ENABLE_BITCODE = NO;
@@ -632,7 +628,7 @@
 				CODE_SIGN_ENTITLEMENTS = ExampleApp/ExampleApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 51;
+				CURRENT_PROJECT_VERSION = 50;
 				DEVELOPMENT_ASSET_PATHS = "\"ExampleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9CLSXL2Y8R;
 				ENABLE_BITCODE = NO;
@@ -694,25 +690,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B5B02A692C05C62300993FC1 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+		B58764FE2C47D82D001BCD6C /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/eyeson-team/ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.3.0;
+				minimumVersion = 1.3.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B5B02A6A2C05C62300993FC1 /* EyesonSdk */ = {
+		B58764FF2C47D82D001BCD6C /* EyesonSdk */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B5B02A692C05C62300993FC1 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			package = B58764FE2C47D82D001BCD6C /* XCRemoteSwiftPackageReference "ios-sdk" */;
 			productName = EyesonSdk;
 		};
-		B5B02A6C2C05C62300993FC1 /* EyesonSdk_Screencast */ = {
+		B58765012C47D82D001BCD6C /* EyesonSdk_Screencast */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B5B02A692C05C62300993FC1 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			package = B58764FE2C47D82D001BCD6C /* XCRemoteSwiftPackageReference "ios-sdk" */;
 			productName = EyesonSdk_Screencast;
 		};
 /* End XCSwiftPackageProductDependency section */
