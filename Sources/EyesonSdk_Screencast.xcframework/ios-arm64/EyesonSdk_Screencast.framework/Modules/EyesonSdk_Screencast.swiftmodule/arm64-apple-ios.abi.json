@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "EyesonSdk_Screencast",
+    "printedName": "EyesonSdk_Screencast",
     "children": [
       {
         "kind": "Import",
@@ -129,6 +129,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -213,6 +227,48 @@
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk_Screencast\/ScreencastHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 548,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk_Screencast\/ScreencastHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 1565,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk_Screencast\/ScreencastHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 1571,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk_Screencast\/ScreencastHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1597,
+      "length": 52,
+      "value": "\"Screencast: Dropping frame at \""
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk_Screencast\/ScreencastHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1648,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk_Screencast\/ScreencastHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1670,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk_Screencast\/ScreencastHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1734,
       "length": 5,
       "value": "false"
     }

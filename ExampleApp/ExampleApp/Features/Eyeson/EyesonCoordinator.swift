@@ -81,6 +81,10 @@ class EyesonCoordinator: ObservableObject {
     private var statsTimer: Timer?
     private var controlsTimer: Timer?
     
+    init() {
+        Eyeson.shared.environment = .staging
+    }
+    
     func load(accessKey: String) {
         isLoading = true
         Eyeson.shared.join(accessKey,

@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "EyesonSdk",
+    "printedName": "EyesonSdk",
     "children": [
       {
         "kind": "Import",
@@ -51,6 +51,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -549,6 +565,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -953,6 +983,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6237,6 +6281,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Collection",
             "printedName": "Collection",
             "children": [
@@ -6958,6 +7016,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Comparable",
             "printedName": "Comparable",
             "usr": "s:SL",
@@ -7085,6 +7157,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7141,6 +7229,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7566,6 +7670,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8763,6 +8881,22 @@
             "moduleName": "EyesonSdk",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -8801,6 +8935,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8881,6 +9031,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -9226,6 +9392,20 @@
             ],
             "enumRawTypeName": "Int32",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -9752,7 +9932,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -10145,6 +10341,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10191,6 +10401,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -10419,6 +10636,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10872,6 +11103,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -10919,6 +11166,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -10962,6 +11225,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -11390,6 +11669,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -11446,6 +11741,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -11603,7 +11914,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -11650,7 +11977,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -12213,6 +12556,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -12826,6 +13183,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -13477,6 +13848,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13867,6 +14252,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13913,6 +14312,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -14027,6 +14442,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -14070,6 +14501,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -14227,6 +14674,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -14497,6 +14960,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Framer",
             "printedName": "Framer",
             "usr": "s:9EyesonSdk6FramerP",
@@ -14515,6 +14992,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -14944,6 +15437,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15157,6 +15664,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -15686,6 +16207,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -16238,6 +16775,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -16287,6 +16840,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -17255,6 +17824,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "WebSocketClient",
             "printedName": "WebSocketClient",
             "usr": "s:9EyesonSdk15WebSocketClientP",
@@ -17394,6 +17977,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "HTTPHandler",
@@ -18004,6 +18601,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Error",
                 "printedName": "Error",
                 "usr": "s:s5ErrorP",
@@ -18329,6 +18940,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -18512,6 +19137,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -19095,7 +19734,23 @@
             "declAttributes": [
               "AccessControl"
             ],
-            "hasMissingDesignatedInitializers": true
+            "hasMissingDesignatedInitializers": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -19433,6 +20088,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -19665,6 +20334,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -19750,6 +20435,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -20319,6 +21020,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -20366,6 +21083,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -21554,6 +22287,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -22452,6 +23201,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -22951,6 +23714,20 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "EyesonEvent",
                     "printedName": "EyesonEvent",
                     "usr": "s:9EyesonSdk0A5EventP",
@@ -23143,6 +23920,20 @@
                 ],
                 "isFromExtension": true,
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "EyesonEvent",
@@ -23424,6 +24215,20 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "EyesonEvent",
                     "printedName": "EyesonEvent",
                     "usr": "s:9EyesonSdk0A5EventP",
@@ -23582,6 +24387,20 @@
                 ],
                 "isFromExtension": true,
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "Decodable",
@@ -23756,6 +24575,20 @@
                 ],
                 "isFromExtension": true,
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "Decodable",
@@ -24122,6 +24955,20 @@
                 ],
                 "isFromExtension": true,
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "EyesonEvent",
@@ -24763,6 +25610,20 @@
                     "conformances": [
                       {
                         "kind": "Conformance",
+                        "name": "Copyable",
+                        "printedName": "Copyable",
+                        "usr": "s:s8CopyableP",
+                        "mangledName": "$ss8CopyableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Escapable",
+                        "printedName": "Escapable",
+                        "usr": "s:s9EscapableP",
+                        "mangledName": "$ss9EscapableP"
+                      },
+                      {
+                        "kind": "Conformance",
                         "name": "Decodable",
                         "printedName": "Decodable",
                         "usr": "s:Se",
@@ -24838,6 +25699,20 @@
                 ],
                 "isFromExtension": true,
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "Decodable",
@@ -25070,6 +25945,20 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "EyesonEvent",
                     "printedName": "EyesonEvent",
                     "usr": "s:9EyesonSdk0A5EventP",
@@ -25228,6 +26117,20 @@
                 ],
                 "isFromExtension": true,
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "Decodable",
@@ -25947,6 +26850,20 @@
                         "conformances": [
                           {
                             "kind": "Conformance",
+                            "name": "Copyable",
+                            "printedName": "Copyable",
+                            "usr": "s:s8CopyableP",
+                            "mangledName": "$ss8CopyableP"
+                          },
+                          {
+                            "kind": "Conformance",
+                            "name": "Escapable",
+                            "printedName": "Escapable",
+                            "usr": "s:s9EscapableP",
+                            "mangledName": "$ss9EscapableP"
+                          },
+                          {
+                            "kind": "Conformance",
                             "name": "Decodable",
                             "printedName": "Decodable",
                             "usr": "s:Se",
@@ -26021,6 +26938,20 @@
                       "AccessControl"
                     ],
                     "conformances": [
+                      {
+                        "kind": "Conformance",
+                        "name": "Copyable",
+                        "printedName": "Copyable",
+                        "usr": "s:s8CopyableP",
+                        "mangledName": "$ss8CopyableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Escapable",
+                        "printedName": "Escapable",
+                        "usr": "s:s9EscapableP",
+                        "mangledName": "$ss9EscapableP"
+                      },
                       {
                         "kind": "Conformance",
                         "name": "Decodable",
@@ -26120,6 +27051,20 @@
                 ],
                 "isFromExtension": true,
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "Decodable",
@@ -26664,6 +27609,20 @@
                     "conformances": [
                       {
                         "kind": "Conformance",
+                        "name": "Copyable",
+                        "printedName": "Copyable",
+                        "usr": "s:s8CopyableP",
+                        "mangledName": "$ss8CopyableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Escapable",
+                        "printedName": "Escapable",
+                        "usr": "s:s9EscapableP",
+                        "mangledName": "$ss9EscapableP"
+                      },
+                      {
+                        "kind": "Conformance",
                         "name": "Decodable",
                         "printedName": "Decodable",
                         "usr": "s:Se",
@@ -26761,6 +27720,20 @@
                 ],
                 "isFromExtension": true,
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "Decodable",
@@ -27525,6 +28498,20 @@
                     "conformances": [
                       {
                         "kind": "Conformance",
+                        "name": "Copyable",
+                        "printedName": "Copyable",
+                        "usr": "s:s8CopyableP",
+                        "mangledName": "$ss8CopyableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Escapable",
+                        "printedName": "Escapable",
+                        "usr": "s:s9EscapableP",
+                        "mangledName": "$ss9EscapableP"
+                      },
+                      {
+                        "kind": "Conformance",
                         "name": "Decodable",
                         "printedName": "Decodable",
                         "usr": "s:Se",
@@ -27622,6 +28609,20 @@
                 ],
                 "isFromExtension": true,
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "Decodable",
@@ -27745,6 +28746,20 @@
                 ],
                 "isFromExtension": true,
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "EyesonEvent",
@@ -28856,6 +29871,20 @@
                     "conformances": [
                       {
                         "kind": "Conformance",
+                        "name": "Copyable",
+                        "printedName": "Copyable",
+                        "usr": "s:s8CopyableP",
+                        "mangledName": "$ss8CopyableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Escapable",
+                        "printedName": "Escapable",
+                        "usr": "s:s9EscapableP",
+                        "mangledName": "$ss9EscapableP"
+                      },
+                      {
+                        "kind": "Conformance",
                         "name": "Equatable",
                         "printedName": "Equatable",
                         "usr": "s:SQ",
@@ -28904,6 +29933,20 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "EyesonEvent",
                     "printedName": "EyesonEvent",
                     "usr": "s:9EyesonSdk0A5EventP",
@@ -28919,7 +29962,23 @@
             "declAttributes": [
               "AccessControl"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "TypeDecl",
@@ -29270,6 +30329,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -29457,6 +30530,20 @@
             ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Decodable",
@@ -29907,6 +30994,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -29931,6 +31032,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "EyesonSDK",
@@ -30114,6 +31229,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -30306,6 +31435,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CertificatePinning",
             "printedName": "CertificatePinning",
             "usr": "s:9EyesonSdk18CertificatePinningP",
@@ -30423,6 +31566,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -30771,6 +31930,22 @@
             "moduleName": "EyesonSdk",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -30807,7 +31982,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -31159,6 +32350,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -31202,6 +32409,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -31408,6 +32631,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -31606,6 +32845,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -31802,6 +33055,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -32160,6 +33429,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -33153,6 +34438,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -33333,6 +34634,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CompressionHandler",
@@ -33539,6 +34854,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -33682,6 +35011,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -33761,6 +35106,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -33834,6 +35195,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -34067,6 +35444,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -34433,6 +35824,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -34609,6 +36014,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "HTTPHandler",
             "printedName": "HTTPHandler",
             "usr": "s:9EyesonSdk11HTTPHandlerP",
@@ -34729,6 +36148,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -34819,6 +36252,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -34947,6 +36396,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -34990,6 +36455,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -35087,6 +36568,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -35130,6 +36627,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -35240,6 +36753,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -35252,6 +36781,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -35820,6 +37365,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Engine",
             "printedName": "Engine",
             "usr": "s:9EyesonSdk6EngineP",
@@ -36016,6 +37575,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -36302,6 +37875,20 @@
           "Available"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Transport",
@@ -36617,6 +38204,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Server",
@@ -37107,6 +38708,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Connection",
             "printedName": "Connection",
             "usr": "s:9EyesonSdk10ConnectionP",
@@ -37217,6 +38832,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -37443,6 +39074,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -37694,6 +39341,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -37777,6 +39440,22 @@
         "moduleName": "EyesonSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -37907,6 +39586,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "HTTPServerHandler",
@@ -59843,6 +61536,22 @@
             "moduleName": "EyesonSdk",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           }
         ],
@@ -59858,6 +61567,22 @@
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "EyesonSdk.HttpServerIO"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -59927,6 +61652,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -60132,6 +61873,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "JSONSubscriptType",
             "printedName": "JSONSubscriptType",
             "usr": "s:9EyesonSdk17JSONSubscriptTypeP",
@@ -60316,6 +62071,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -60496,6 +62258,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Error",
                 "printedName": "Error",
                 "usr": "s:s5ErrorP",
@@ -60529,12 +62305,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<Darwin.__sFILE>",
+                    "printedName": "Swift.UnsafeMutablePointer<_stdio.__sFILE>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "__sFILE",
-                        "printedName": "Darwin.__sFILE",
+                        "printedName": "_stdio.__sFILE",
                         "usr": "c:@S@__sFILE"
                       }
                     ],
@@ -60701,7 +62477,23 @@
             "declAttributes": [
               "AccessControl"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -61122,6 +62914,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "JSONSubscriptType",
@@ -61668,12 +63474,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -61834,6 +63634,20 @@
             "printedName": "Comparable",
             "usr": "s:SL",
             "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -62011,6 +63825,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -62203,6 +64024,20 @@
             "printedName": "_DestructorSafeContainer",
             "usr": "s:s24_DestructorSafeContainerP",
             "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -62740,6 +64575,51 @@
           },
           {
             "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ContiguousBytes",
             "printedName": "ContiguousBytes",
             "usr": "s:10Foundation15ContiguousBytesP",
@@ -62786,51 +64666,6 @@
             ],
             "usr": "s:10Foundation26DecodableWithConfigurationP",
             "mangledName": "$s10Foundation26DecodableWithConfigurationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "DataProtocol",
-            "printedName": "DataProtocol",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Regions",
-                "printedName": "Regions",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CollectionOfOne",
-                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.UInt8]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UInt8",
-                            "printedName": "Swift.UInt8",
-                            "usr": "s:s5UInt8V"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:s15CollectionOfOneV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation12DataProtocolP",
-            "mangledName": "$s10Foundation12DataProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MutableDataProtocol",
-            "printedName": "MutableDataProtocol",
-            "usr": "s:10Foundation19MutableDataProtocolP",
-            "mangledName": "$s10Foundation19MutableDataProtocolP"
           }
         ]
       },
@@ -62886,6 +64721,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -62978,6 +64827,13 @@
             "printedName": "TextOutputStreamable",
             "usr": "s:s20TextOutputStreamableP",
             "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -63077,6 +64933,41 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -63096,27 +64987,6 @@
             ],
             "usr": "s:10Foundation20ReferenceConvertibleP",
             "mangledName": "$s10Foundation20ReferenceConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -63202,12 +65072,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -63272,6 +65136,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -63383,6 +65261,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -63569,111 +65461,6 @@
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 339,
-      "length": 3,
-      "value": "607"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 363,
-      "length": 3,
-      "value": "486"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 391,
-      "length": 3,
-      "value": "403"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 421,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 445,
-      "length": 3,
-      "value": "410"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 471,
-      "length": 3,
-      "value": "423"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 488,
-      "length": 5,
-      "value": "424"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 339,
-      "length": 3,
-      "value": "607"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 363,
-      "length": 3,
-      "value": "486"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 391,
-      "length": 3,
-      "value": "403"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 421,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 445,
-      "length": 3,
-      "value": "410"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 471,
-      "length": 3,
-      "value": "423"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 488,
-      "length": 5,
-      "value": "424"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 6844,
-      "length": 12,
-      "value": "\"created_at\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
       "offset": 6844,
       "length": 12,
@@ -63685,20 +65472,6 @@
       "offset": 7166,
       "length": 6,
       "value": "\"user\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 7166,
-      "length": 6,
-      "value": "\"user\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 7368,
-      "length": 11,
-      "value": "\"snapshots\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
@@ -63724,27 +65497,6 @@
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 7880,
-      "length": 9,
-      "value": "\"creator\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 7923,
-      "length": 12,
-      "value": "\"created_at\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 8146,
-      "length": 12,
-      "value": "\"broadcasts\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
       "offset": 8146,
       "length": 12,
       "value": "\"broadcasts\""
@@ -63759,44 +65511,9 @@
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 8510,
-      "length": 12,
-      "value": "\"player_url\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
       "offset": 8757,
       "length": 9,
       "value": "\"playing\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 8757,
-      "length": 9,
-      "value": "\"playing\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 9126,
-      "length": 9,
-      "value": "\"play_id\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 9224,
-      "length": 16,
-      "value": "\"replacement_id\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 9301,
-      "length": 12,
-      "value": "\"loop_count\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
@@ -63892,41 +65609,6 @@
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
       "kind": "StringLiteral",
-      "offset": 11111,
-      "length": 13,
-      "value": "\"reject_code\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 11153,
-      "length": 11,
-      "value": "\"term_code\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 11505,
-      "length": 5,
-      "value": "\"src\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 11538,
-      "length": 6,
-      "value": "\"vsrc\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 11574,
-      "length": 6,
-      "value": "\"psrc\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Event.swift",
-      "kind": "StringLiteral",
       "offset": 11505,
       "length": 5,
       "value": "\"src\""
@@ -63986,174 +65668,6 @@
       "offset": 1450,
       "length": 3,
       "value": "490"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1312,
-      "length": 3,
-      "value": "999"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1344,
-      "length": 3,
-      "value": "900"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1374,
-      "length": 3,
-      "value": "902"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1399,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1423,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1450,
-      "length": 3,
-      "value": "490"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1312,
-      "length": 3,
-      "value": "999"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1344,
-      "length": 3,
-      "value": "900"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1374,
-      "length": 3,
-      "value": "902"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1399,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1423,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1450,
-      "length": 3,
-      "value": "490"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2716,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2729,
-      "length": 4,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2740,
-      "length": 5,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2752,
-      "length": 10,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2769,
-      "length": 4,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2780,
-      "length": 7,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2716,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2729,
-      "length": 4,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2740,
-      "length": 5,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2752,
-      "length": 10,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2769,
-      "length": 4,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2780,
-      "length": 7,
-      "value": "6"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/SwiftyJSON.swift",
@@ -64345,60 +65859,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/SignalingCommunicator.swift",
-      "kind": "StringLiteral",
-      "offset": 123,
-      "length": 21,
-      "value": "\"EyesonSdk.SignalingCommunicator\""
-    },
-    {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/HttpServerIO.swift",
       "kind": "IntegerLiteral",
       "offset": 386,
       "length": 2,
       "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/HttpServerIO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 509,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/HttpServerIO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 530,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/HttpServerIO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 552,
-      "length": 7,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/HttpServerIO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 509,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/HttpServerIO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 530,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/HttpServerIO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 552,
-      "length": 7,
-      "value": "3"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/HttpServerIO.swift",
@@ -64455,27 +65920,6 @@
       "offset": 479,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/ConfigUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 159,
-      "length": 13,
-      "value": "\"Development\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/ConfigUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 192,
-      "length": 9,
-      "value": "\"Staging\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/ConfigUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 224,
-      "length": 12,
-      "value": "\"Production\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Utils\/ConfigUtils.swift",
@@ -64560,13 +66004,6 @@
       "offset": 5137,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/MediaHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 125,
-      "length": 12,
-      "value": "\"EyesonSdk.MediaHandler\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
@@ -64672,216 +66109,6 @@
       "offset": 1573,
       "length": 4,
       "value": "1009"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1257,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1296,
-      "length": 4,
-      "value": "1001"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1335,
-      "length": 4,
-      "value": "1002"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1374,
-      "length": 4,
-      "value": "1003"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1435,
-      "length": 4,
-      "value": "1005"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1495,
-      "length": 4,
-      "value": "1007"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1534,
-      "length": 4,
-      "value": "1008"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1573,
-      "length": 4,
-      "value": "1009"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1257,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1296,
-      "length": 4,
-      "value": "1001"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1335,
-      "length": 4,
-      "value": "1002"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1374,
-      "length": 4,
-      "value": "1003"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1435,
-      "length": 4,
-      "value": "1005"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1495,
-      "length": 4,
-      "value": "1007"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1534,
-      "length": 4,
-      "value": "1008"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1573,
-      "length": 4,
-      "value": "1009"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1639,
-      "length": 3,
-      "value": "0x0"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1664,
-      "length": 3,
-      "value": "0x1"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1691,
-      "length": 3,
-      "value": "0x2"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1747,
-      "length": 3,
-      "value": "0x8"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1767,
-      "length": 3,
-      "value": "0x9"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1787,
-      "length": 3,
-      "value": "0xA"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1831,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1639,
-      "length": 3,
-      "value": "0x0"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1664,
-      "length": 3,
-      "value": "0x1"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1691,
-      "length": 3,
-      "value": "0x2"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1747,
-      "length": 3,
-      "value": "0x8"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1767,
-      "length": 3,
-      "value": "0x9"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1787,
-      "length": 3,
-      "value": "0xA"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1831,
-      "length": 3,
-      "value": "100"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/Framer.swift",
@@ -65039,90 +66266,6 @@
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6780,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6794,
-      "length": 4,
-      "value": "0x08"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6807,
-      "length": 4,
-      "value": "0x09"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6820,
-      "length": 4,
-      "value": "0x0A"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6833,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6848,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6780,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6794,
-      "length": 4,
-      "value": "0x08"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6807,
-      "length": 4,
-      "value": "0x09"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6820,
-      "length": 4,
-      "value": "0x0A"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6833,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6848,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/WebSockets.swift",
       "kind": "BooleanLiteral",
       "offset": 6993,
       "length": 5,
@@ -65214,20 +66357,6 @@
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Meeting.swift",
-      "kind": "StringLiteral",
-      "offset": 623,
-      "length": 12,
-      "value": "\"access_key\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Meeting.swift",
-      "kind": "StringLiteral",
-      "offset": 662,
-      "length": 6,
-      "value": "\"room\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Meeting.swift",
       "kind": "BooleanLiteral",
       "offset": 910,
       "length": 5,
@@ -65239,20 +66368,6 @@
       "offset": 1100,
       "length": 13,
       "value": "\"guest_token\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Meeting.swift",
-      "kind": "StringLiteral",
-      "offset": 1100,
-      "length": 13,
-      "value": "\"guest_token\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Meeting.swift",
-      "kind": "StringLiteral",
-      "offset": 1331,
-      "length": 12,
-      "value": "\"guest_join\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Meeting.swift",
@@ -65269,32 +66384,11 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/PiP\/PiPHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 125,
-      "length": 10,
-      "value": "\"EyesonSdk.PiPHandler\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/Communicator\/DataChannelCommunicator.swift",
-      "kind": "StringLiteral",
-      "offset": 121,
-      "length": 23,
-      "value": "\"EyesonSdk.DataChannelCommunicator\""
-    },
-    {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/VideoView.swift",
       "kind": "FloatLiteral",
       "offset": 242,
       "length": 3,
       "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/VideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 125,
-      "length": 9,
-      "value": "\"EyesonSdk.VideoView\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/User.swift",
@@ -65416,41 +66510,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/PiP\/PiPVideoRenderer.swift",
-      "kind": "StringLiteral",
-      "offset": 458,
-      "length": 16,
-      "value": "\"EyesonSdk.PiPVideoRenderer\""
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Security\/Security.swift",
-      "kind": "IntegerLiteral",
-      "offset": 979,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Security\/Security.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1006,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Security\/Security.swift",
-      "kind": "IntegerLiteral",
-      "offset": 979,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Security\/Security.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1006,
-      "length": 1,
-      "value": "2"
-    },
-    {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Security\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 979,
@@ -65498,13 +66557,6 @@
       "offset": 1910,
       "length": 2,
       "value": "10"
-    },
-    {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Transport\/FoundationTransport.swift",
-      "kind": "StringLiteral",
-      "offset": 1058,
-      "length": 19,
-      "value": "\"EyesonSdk.FoundationTransport\""
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Framer\/HTTPHandler.swift",
@@ -65739,45 +66791,73 @@
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/AVHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 138,
-      "length": 9,
-      "value": "\"EyesonSdk.AVHandler\""
+      "kind": "IntegerLiteral",
+      "offset": 4571,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Signaling.swift",
-      "kind": "StringLiteral",
-      "offset": 826,
-      "length": 11,
-      "value": "\"client_id\""
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/AVHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4797,
+      "length": 2,
+      "value": "16"
     },
     {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Signaling.swift",
-      "kind": "StringLiteral",
-      "offset": 864,
-      "length": 9,
-      "value": "\"conf_id\""
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/AVHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4800,
+      "length": 1,
+      "value": "9"
     },
     {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Signaling.swift",
-      "kind": "StringLiteral",
-      "offset": 903,
-      "length": 12,
-      "value": "\"auth_token\""
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/AVHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4825,
+      "length": 3,
+      "value": "960"
     },
     {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Signaling.swift",
-      "kind": "StringLiteral",
-      "offset": 973,
-      "length": 14,
-      "value": "\"stun_servers\""
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/AVHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4984,
+      "length": 1,
+      "value": "4"
     },
     {
-      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Signaling.swift",
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/AVHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4986,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/AVHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5011,
+      "length": 3,
+      "value": "640"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/AVHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1019,
-      "length": 14,
-      "value": "\"turn_servers\""
+      "offset": 5124,
+      "length": 38,
+      "value": "\"AVHandler | Using format: \""
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/AVHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5161,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/AVHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5245,
+      "length": 2,
+      "value": "30"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Models\/Signaling.swift",
@@ -65890,6 +66970,370 @@
       "offset": 428,
       "length": 13,
       "value": "\"Unspecified\""
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 10,
+      "value": "0x67452301"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 450,
+      "length": 10,
+      "value": "0xEFCDAB89"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 500,
+      "length": 10,
+      "value": "0x98BADCFE"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 550,
+      "length": 10,
+      "value": "0x10325476"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 600,
+      "length": 10,
+      "value": "0xC3D2E1F0"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 751,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 887,
+      "length": 4,
+      "value": "0x80"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1070,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1076,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1134,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1144,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1476,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1600,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1618,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1701,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1717,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1720,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1836,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1840,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1966,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2141,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2146,
+      "length": 2,
+      "value": "79"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2201,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2220,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2239,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2259,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2312,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2522,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2526,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2562,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2596,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2647,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2651,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2724,
+      "length": 10,
+      "value": "0x5A827999"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2756,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2761,
+      "length": 2,
+      "value": "39"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2823,
+      "length": 10,
+      "value": "0x6ED9EBA1"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2855,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2860,
+      "length": 2,
+      "value": "59"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2940,
+      "length": 10,
+      "value": "0x8F1BBCDC"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2972,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2977,
+      "length": 2,
+      "value": "79"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3039,
+      "length": 10,
+      "value": "0xCA62C1D6"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3141,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3174,
+      "length": 10,
+      "value": "0xFFFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3263,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3416,
+      "length": 10,
+      "value": "0xFFFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3458,
+      "length": 10,
+      "value": "0xFFFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3500,
+      "length": 10,
+      "value": "0xFFFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3542,
+      "length": 10,
+      "value": "0xFFFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3584,
+      "length": 10,
+      "value": "0xFFFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Webserver\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3990,
+      "length": 1,
+      "value": "4"
     }
   ]
 }

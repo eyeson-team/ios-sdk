@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name EyesonSdk
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name EyesonSdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AVFoundation
 import AVKit
 import CommonCrypto
@@ -560,7 +561,7 @@ extension Swift.String {
     case error(Swift.Int32)
   }
   public class File {
-    public init(_ pointer: Swift.UnsafeMutablePointer<Darwin.FILE>)
+    public init(_ pointer: Swift.UnsafeMutablePointer<_stdio.FILE>)
     public func close()
     public func seek(_ offset: Swift.Int) -> Swift.Bool
     public func read(_ data: inout [Swift.UInt8]) throws -> Swift.Int
@@ -605,7 +606,7 @@ public protocol HttpServerIODelegate : AnyObject {
   public func isIPv4() throws -> Swift.Bool
   @objc deinit
   @available(macOS 10.10, *)
-  public func start(_ port: Darwin.in_port_t = 8080, forceIPv4: Swift.Bool = false, priority: Dispatch.DispatchQoS.QoSClass = DispatchQoS.QoSClass.background) throws
+  public func start(_ port: netinet_in.in_port_t = 8080, forceIPv4: Swift.Bool = false, priority: Dispatch.DispatchQoS.QoSClass = DispatchQoS.QoSClass.background) throws
   public func stop()
   open func dispatch(_ request: EyesonSdk.HttpRequest) -> ([Swift.String : Swift.String], (EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse)
 }
@@ -694,7 +695,7 @@ open class Socket : Swift.Hashable, Swift.Equatable {
   @objc deinit
   public func hash(into hasher: inout Swift.Hasher)
   public func close()
-  public func port() throws -> Darwin.in_port_t
+  public func port() throws -> netinet_in.in_port_t
   public func isIPv4() throws -> Swift.Bool
   public func writeUTF8(_ string: Swift.String) throws
   public func writeUInt8(_ data: [Swift.UInt8]) throws
@@ -713,9 +714,9 @@ open class Socket : Swift.Hashable, Swift.Equatable {
 }
 public func == (socket1: EyesonSdk.Socket, socket2: EyesonSdk.Socket) -> Swift.Bool
 public func demoServer(_ publicDir: Swift.String) -> EyesonSdk.HttpServer
-public func shareFile(_ path: Swift.String) -> ((EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse)
-public func shareFilesFromDirectory(_ directoryPath: Swift.String, defaults: [Swift.String] = ["index.html", "default.html"]) -> ((EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse)
-public func directoryBrowser(_ dir: Swift.String) -> ((EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse)
+public func shareFile(_ path: Swift.String) -> (EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse
+public func shareFilesFromDirectory(_ directoryPath: Swift.String, defaults: [Swift.String] = ["index.html", "default.html"]) -> (EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse
+public func directoryBrowser(_ dir: Swift.String) -> (EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse
 public enum CloseCode : Swift.UInt16 {
   case normal
   case goingAway
@@ -861,8 +862,8 @@ public class FoundationHTTPHandler : EyesonSdk.HTTPHandler {
   @objc deinit
 }
 @available(*, deprecated, message: "Use websocket(text:binary:pong:connected:disconnected:) instead.")
-public func websocket(_ text: @escaping (EyesonSdk.WebSocketSession, Swift.String) -> Swift.Void, _ binary: @escaping (EyesonSdk.WebSocketSession, [Swift.UInt8]) -> Swift.Void, _ pong: @escaping (EyesonSdk.WebSocketSession, [Swift.UInt8]) -> Swift.Void) -> ((EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse)
-public func websocket(text: ((EyesonSdk.WebSocketSession, Swift.String) -> Swift.Void)? = nil, binary: ((EyesonSdk.WebSocketSession, [Swift.UInt8]) -> Swift.Void)? = nil, pong: ((EyesonSdk.WebSocketSession, [Swift.UInt8]) -> Swift.Void)? = nil, connected: ((EyesonSdk.WebSocketSession) -> Swift.Void)? = nil, disconnected: ((EyesonSdk.WebSocketSession) -> Swift.Void)? = nil) -> ((EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse)
+public func websocket(_ text: @escaping (EyesonSdk.WebSocketSession, Swift.String) -> Swift.Void, _ binary: @escaping (EyesonSdk.WebSocketSession, [Swift.UInt8]) -> Swift.Void, _ pong: @escaping (EyesonSdk.WebSocketSession, [Swift.UInt8]) -> Swift.Void) -> (EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse
+public func websocket(text: ((EyesonSdk.WebSocketSession, Swift.String) -> Swift.Void)? = nil, binary: ((EyesonSdk.WebSocketSession, [Swift.UInt8]) -> Swift.Void)? = nil, pong: ((EyesonSdk.WebSocketSession, [Swift.UInt8]) -> Swift.Void)? = nil, connected: ((EyesonSdk.WebSocketSession) -> Swift.Void)? = nil, disconnected: ((EyesonSdk.WebSocketSession) -> Swift.Void)? = nil) -> (EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse
 public class WebSocketSession : Swift.Hashable, Swift.Equatable {
   public enum WsError : Swift.Error {
     case unknownOpCode(Swift.String), unMaskedFrame(Swift.String), protocolError(Swift.String), invalidUTF8(Swift.String)
@@ -1007,7 +1008,7 @@ public class FoundationSecurity {
   @objc deinit
 }
 extension EyesonSdk.FoundationSecurity : EyesonSdk.CertificatePinning {
-  public func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((EyesonSdk.PinningState) -> ()))
+  public func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: (EyesonSdk.PinningState) -> ())
 }
 extension EyesonSdk.FoundationSecurity : EyesonSdk.HeaderValidator {
   public func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?
@@ -1044,7 +1045,7 @@ public protocol Transport : AnyObject {
   func register(delegate: any EyesonSdk.TransportEventClient)
   func connect(url: Foundation.URL, timeout: Swift.Double, certificatePinning: (any EyesonSdk.CertificatePinning)?)
   func disconnect()
-  func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
+  func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> ())
   var usingTLS: Swift.Bool { get }
 }
 public enum SerializationError : Swift.Error {
@@ -1107,7 +1108,7 @@ public enum PinningState {
   case failed(CoreFoundation.CFError?)
 }
 public protocol CertificatePinning : AnyObject {
-  func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((EyesonSdk.PinningState) -> ()))
+  func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: (EyesonSdk.PinningState) -> ())
 }
 public protocol HeaderValidator : AnyObject {
   func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?
@@ -1131,7 +1132,7 @@ public enum FoundationTransportError : Swift.Error {
   public func connect(url: Foundation.URL, timeout: Swift.Double = 10, certificatePinning: (any EyesonSdk.CertificatePinning)? = nil)
   public func disconnect()
   public func register(delegate: any EyesonSdk.TransportEventClient)
-  public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
+  public func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> ())
   @objc open func stream(_ aStream: Foundation.Stream, handle eventCode: Foundation.Stream.Event)
 }
 public class StringHTTPHandler : EyesonSdk.HTTPHandler {
@@ -1178,7 +1179,7 @@ extension Foundation.URL {
   public func getParts() -> EyesonSdk.URLParts?
 }
 extension EyesonSdk.Socket {
-  public class func tcpSocketForListen(_ port: Darwin.in_port_t, _ forceIPv4: Swift.Bool = false, _ maxPendingConnection: Swift.Int32 = SOMAXCONN, _ listenAddress: Swift.String? = nil) throws -> EyesonSdk.Socket
+  public class func tcpSocketForListen(_ port: netinet_in.in_port_t, _ forceIPv4: Swift.Bool = false, _ maxPendingConnection: Swift.Int32 = SOMAXCONN, _ listenAddress: Swift.String? = nil) throws -> EyesonSdk.Socket
   public func acceptClientSocket() throws -> EyesonSdk.Socket
 }
 public class WSEngine : EyesonSdk.Engine, EyesonSdk.TransportEventClient, EyesonSdk.FramerEventClient, EyesonSdk.FrameCollectorDelegate, EyesonSdk.HTTPHandlerDelegate {
@@ -1215,7 +1216,7 @@ public class TCPTransport : EyesonSdk.Transport {
   public func connect(url: Foundation.URL, timeout: Swift.Double = 10, certificatePinning: (any EyesonSdk.CertificatePinning)? = nil)
   public func disconnect()
   public func register(delegate: any EyesonSdk.TransportEventClient)
-  public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
+  public func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> ())
   @objc deinit
 }
 @available(macOS 10.14, iOS 12.0, watchOS 5.0, tvOS 12.0, *)
@@ -1280,7 +1281,7 @@ extension Swift.String {
   public func parse(data: Foundation.Data)
   @objc deinit
 }
-public func scopes(_ scope: @escaping EyesonSdk.Closure) -> ((EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse)
+public func scopes(_ scope: @escaping EyesonSdk.Closure) -> (EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse
 public typealias Closure = () -> Swift.Void
 public var idd: Swift.String?
 public var dir: Swift.String?
