@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name EyesonSdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import AVKit
 import CommonCrypto
@@ -42,7 +42,9 @@ extension EyesonSdk.Eyeson {
     case gone
     case locked
     case other
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -175,7 +177,9 @@ extension EyesonSdk.Eyeson.Event {
       case ok
       case good
       case unknown
+      #if compiler(>=5.3) && $NonescapableTypes
       public init?(rawValue: Swift.String)
+      #endif
       public typealias RawValue = Swift.String
       public var rawValue: Swift.String {
         get
@@ -190,7 +194,9 @@ public enum SwiftyJSONError : Swift.Int, Swift.Error {
   case wrongType
   case notExist
   case invalidJSON
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -215,7 +221,9 @@ public enum Type : Swift.Int {
   case dictionary
   case null
   case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -328,13 +336,19 @@ extension EyesonSdk.JSON : Swift.ExpressibleByArrayLiteral {
   public typealias ArrayLiteralElement = Any
 }
 extension EyesonSdk.JSON : Swift.RawRepresentable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Any)
+  #endif
   public var rawValue: Any {
     get
   }
   public func rawData(options opt: Foundation.JSONSerialization.WritingOptions = JSONSerialization.WritingOptions(rawValue: 0)) throws -> Foundation.Data
+  #if compiler(>=5.3) && $NonescapableTypes
   public func rawString(_ encoding: Swift.String.Encoding = .utf8, options opt: Foundation.JSONSerialization.WritingOptions = .prettyPrinted) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func rawString(_ options: [EyesonSdk.writingOptionsKeys : Any]) -> Swift.String?
+  #endif
   public typealias RawValue = Any
 }
 extension EyesonSdk.JSON : Swift.CustomStringConvertible, Swift.CustomDebugStringConvertible {
@@ -346,165 +360,207 @@ extension EyesonSdk.JSON : Swift.CustomStringConvertible, Swift.CustomDebugStrin
   }
 }
 extension EyesonSdk.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var array: [EyesonSdk.JSON]? {
     get
   }
+  #endif
   public var arrayValue: [EyesonSdk.JSON] {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var arrayObject: [Any]? {
     get
     set
   }
+  #endif
 }
 extension EyesonSdk.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var dictionary: [Swift.String : EyesonSdk.JSON]? {
     get
   }
+  #endif
   public var dictionaryValue: [Swift.String : EyesonSdk.JSON] {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var dictionaryObject: [Swift.String : Any]? {
     get
     set
   }
+  #endif
 }
 extension EyesonSdk.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var bool: Swift.Bool? {
     get
     set
   }
+  #endif
   public var boolValue: Swift.Bool {
     get
     set
   }
 }
 extension EyesonSdk.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var string: Swift.String? {
     get
     set
   }
+  #endif
   public var stringValue: Swift.String {
     get
     set
   }
 }
 extension EyesonSdk.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var number: Foundation.NSNumber? {
     get
     set
   }
+  #endif
   public var numberValue: Foundation.NSNumber {
     get
     set
   }
 }
 extension EyesonSdk.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var null: Foundation.NSNull? {
     get
     set
   }
+  #endif
   public func exists() -> Swift.Bool
 }
 extension EyesonSdk.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var url: Foundation.URL? {
     get
     set
   }
+  #endif
 }
 extension EyesonSdk.JSON {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var double: Swift.Double? {
     get
     set
   }
+  #endif
   public var doubleValue: Swift.Double {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var float: Swift.Float? {
     get
     set
   }
+  #endif
   public var floatValue: Swift.Float {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var int: Swift.Int? {
     get
     set
   }
+  #endif
   public var intValue: Swift.Int {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var uInt: Swift.UInt? {
     get
     set
   }
+  #endif
   public var uIntValue: Swift.UInt {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var int8: Swift.Int8? {
     get
     set
   }
+  #endif
   public var int8Value: Swift.Int8 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var uInt8: Swift.UInt8? {
     get
     set
   }
+  #endif
   public var uInt8Value: Swift.UInt8 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var int16: Swift.Int16? {
     get
     set
   }
+  #endif
   public var int16Value: Swift.Int16 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var uInt16: Swift.UInt16? {
     get
     set
   }
+  #endif
   public var uInt16Value: Swift.UInt16 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var int32: Swift.Int32? {
     get
     set
   }
+  #endif
   public var int32Value: Swift.Int32 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var uInt32: Swift.UInt32? {
     get
     set
   }
+  #endif
   public var uInt32Value: Swift.UInt32 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var int64: Swift.Int64? {
     get
     set
   }
+  #endif
   public var int64Value: Swift.Int64 {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var uInt64: Swift.UInt64? {
     get
     set
   }
+  #endif
   public var uInt64Value: Swift.UInt64 {
     get
     set
@@ -546,12 +602,16 @@ public class HttpRequest {
   public struct MultiPart {
     public let headers: [Swift.String : Swift.String]
     public let body: [Swift.UInt8]
+    #if compiler(>=5.3) && $NonescapableTypes
     public var name: Swift.String? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var fileName: Swift.String? {
       get
     }
+    #endif
   }
   public func parseMultiPartFormData() -> [EyesonSdk.HttpRequest.MultiPart]
   @objc deinit
@@ -561,7 +621,7 @@ extension Swift.String {
     case error(Swift.Int32)
   }
   public class File {
-    public init(_ pointer: Swift.UnsafeMutablePointer<_stdio.FILE>)
+    public init(_ pointer: Swift.UnsafeMutablePointer<_DarwinFoundation2.FILE>)
     public func close()
     public func seek(_ offset: Swift.Int) -> Swift.Bool
     public func read(_ data: inout [Swift.UInt8]) throws -> Swift.Int
@@ -588,7 +648,9 @@ public protocol HttpServerIODelegate : AnyObject {
     case running
     case stopping
     case stopped
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int32)
+    #endif
     public typealias RawValue = Swift.Int32
     public var rawValue: Swift.Int32 {
       get
@@ -606,7 +668,7 @@ public protocol HttpServerIODelegate : AnyObject {
   public func isIPv4() throws -> Swift.Bool
   @objc deinit
   @available(macOS 10.10, *)
-  public func start(_ port: netinet_in.in_port_t = 8080, forceIPv4: Swift.Bool = false, priority: Dispatch.DispatchQoS.QoSClass = DispatchQoS.QoSClass.background) throws
+  public func start(_ port: _DarwinFoundation2.in_port_t = 8080, forceIPv4: Swift.Bool = false, priority: Dispatch.DispatchQoS.QoSClass = DispatchQoS.QoSClass.background) throws
   public func stop()
   open func dispatch(_ request: EyesonSdk.HttpRequest) -> ([Swift.String : Swift.String], (EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse)
 }
@@ -620,10 +682,18 @@ public class NativeEngine : ObjectiveC.NSObject, EyesonSdk.Engine, Foundation.UR
   public func start(request: Foundation.URLRequest)
   public func stop(closeCode: Swift.UInt16)
   public func forceStop()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, opcode: EyesonSdk.FrameOpCode, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didOpenWithProtocol protocol: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didCloseWith closeCode: Foundation.URLSessionWebSocketTask.CloseCode, reason: Foundation.Data?)
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -631,7 +701,9 @@ public enum Environment : Swift.String {
   case development
   case staging
   case production
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -661,7 +733,9 @@ public enum ServerEvent {
   case ping(any EyesonSdk.Connection, Foundation.Data?)
 }
 public protocol Server {
+  #if compiler(>=5.3) && $NonescapableTypes
   func start(address: Swift.String, port: Swift.UInt16) -> (any Swift.Error)?
+  #endif
 }
 @_hasMissingDesignatedInitializers public class Process {
   public static var pid: Swift.Int {
@@ -695,7 +769,7 @@ open class Socket : Swift.Hashable, Swift.Equatable {
   @objc deinit
   public func hash(into hasher: inout Swift.Hasher)
   public func close()
-  public func port() throws -> netinet_in.in_port_t
+  public func port() throws -> _DarwinFoundation2.in_port_t
   public func isIPv4() throws -> Swift.Bool
   public func writeUTF8(_ string: Swift.String) throws
   public func writeUInt8(_ data: [Swift.UInt8]) throws
@@ -726,7 +800,9 @@ public enum CloseCode : Swift.UInt16 {
   case encoding
   case policyViolated
   case messageTooBig
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt16)
+  #endif
   public typealias RawValue = Swift.UInt16
   public var rawValue: Swift.UInt16 {
     get
@@ -740,7 +816,9 @@ public enum FrameOpCode : Swift.UInt8 {
   case ping
   case pong
   case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt8)
+  #endif
   public typealias RawValue = Swift.UInt8
   public var rawValue: Swift.UInt8 {
     get
@@ -804,11 +882,21 @@ public struct WSError : Swift.Error {
 public protocol WebSocketClient : AnyObject {
   func connect()
   func disconnect(closeCode: Swift.UInt16)
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(stringData: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(data: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(ping: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(pong: Foundation.Data, completion: (() -> ())?)
+  #endif
 }
 extension EyesonSdk.WebSocketClient {
   public func write(string: Swift.String)
@@ -842,15 +930,27 @@ open class WebSocket : EyesonSdk.WebSocketClient, EyesonSdk.EngineDelegate {
     set
   }
   public init(request: Foundation.URLRequest, engine: any EyesonSdk.Engine)
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(request: Foundation.URLRequest, certPinner: (any EyesonSdk.CertificatePinning)? = FoundationSecurity(), compressionHandler: (any EyesonSdk.CompressionHandler)? = nil, useCustomEngine: Swift.Bool = true)
+  #endif
   public func connect()
   public func disconnect(closeCode: Swift.UInt16 = CloseCode.normal.rawValue)
   public func forceDisconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(stringData: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(ping: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(pong: Foundation.Data, completion: (() -> ())?)
+  #endif
   public func didReceive(event: EyesonSdk.WebSocketEvent)
   @objc deinit
 }
@@ -863,14 +963,18 @@ public class FoundationHTTPHandler : EyesonSdk.HTTPHandler {
 }
 @available(*, deprecated, message: "Use websocket(text:binary:pong:connected:disconnected:) instead.")
 public func websocket(_ text: @escaping (EyesonSdk.WebSocketSession, Swift.String) -> Swift.Void, _ binary: @escaping (EyesonSdk.WebSocketSession, [Swift.UInt8]) -> Swift.Void, _ pong: @escaping (EyesonSdk.WebSocketSession, [Swift.UInt8]) -> Swift.Void) -> (EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse
+#if compiler(>=5.3) && $NonescapableTypes
 public func websocket(text: ((EyesonSdk.WebSocketSession, Swift.String) -> Swift.Void)? = nil, binary: ((EyesonSdk.WebSocketSession, [Swift.UInt8]) -> Swift.Void)? = nil, pong: ((EyesonSdk.WebSocketSession, [Swift.UInt8]) -> Swift.Void)? = nil, connected: ((EyesonSdk.WebSocketSession) -> Swift.Void)? = nil, disconnected: ((EyesonSdk.WebSocketSession) -> Swift.Void)? = nil) -> (EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse
+#endif
 public class WebSocketSession : Swift.Hashable, Swift.Equatable {
   public enum WsError : Swift.Error {
     case unknownOpCode(Swift.String), unMaskedFrame(Swift.String), protocolError(Swift.String), invalidUTF8(Swift.String)
   }
   public enum OpCode : Swift.UInt8 {
     case `continue`, close, ping, pong, text, binary
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.UInt8)
+    #endif
     public typealias RawValue = Swift.UInt8
     public var rawValue: Swift.UInt8 {
       get
@@ -912,7 +1016,9 @@ extension Swift.String {
   public func unquote() -> Swift.String
 }
 extension Swift.Unicode.Scalar {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func asWhitespace() -> Swift.UInt8?
+  #endif
 }
 extension EyesonSdk.Eyeson {
   public struct Links : Swift.Codable {
@@ -923,32 +1029,55 @@ extension EyesonSdk.Eyeson {
 }
 public protocol CompressionHandler {
   func load(headers: [Swift.String : Swift.String])
+  #if compiler(>=5.3) && $NonescapableTypes
   func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func compress(data: Foundation.Data) -> Foundation.Data?
+  #endif
 }
 public protocol EyesonScreencastService {
+  #if compiler(>=5.3) && $NonescapableTypes
   func observe(onUpdate: ((Swift.Bool) -> ())?)
+  #endif
 }
 public protocol EyesonSDK {
   var environment: EyesonSdk.Environment { get set }
+  #if compiler(>=5.3) && $NonescapableTypes
   func join(_ accessKey: Swift.String, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func join(_ accessKey: Swift.String, video: Swift.Bool, camera: AVFoundation.AVCaptureDevice.Position, videoMuted: Swift.Bool, audioMuted: Swift.Bool, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func join(_ guestToken: Swift.String, name: Swift.String, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func join(_ guestToken: Swift.String, name: Swift.String, video: Swift.Bool, camera: AVFoundation.AVCaptureDevice.Position, videoMuted: Swift.Bool, audioMuted: Swift.Bool, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func start(permalink userToken: Swift.String, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func start(permalink userToken: Swift.String, video: Swift.Bool, camera: AVFoundation.AVCaptureDevice.Position, videoMuted: Swift.Bool, audioMuted: Swift.Bool, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  #endif
 }
 public protocol EyesonDelegate {
   func eyeson(_ meeting: any EyesonSdk.EyesonMeeting, didReceive event: any EyesonSdk.EyesonEvent)
 }
 public protocol EyesonMeeting {
+  #if compiler(>=5.3) && $NonescapableTypes
   var delegate: (any EyesonSdk.EyesonDelegate)? { get set }
+  #endif
   var links: EyesonSdk.Eyeson.Links { get }
   var localVideoView: UIKit.UIView { get }
   var remoteVideoView: UIKit.UIView { get }
   var camera: AVFoundation.AVCaptureDevice.Position { get set }
   var user: EyesonSdk.Eyeson.User { get }
   var screencast: any EyesonSdk.EyesonScreencastService { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   func user(_ id: Swift.String, completion: @escaping (EyesonSdk.Eyeson.User?, (any Swift.Error)?) -> Swift.Void)
+  #endif
   func mute(_ device: EyesonSdk.Eyeson.Device, _ mute: Swift.Bool)
   func muteAll()
   func send(chat message: Swift.String)
@@ -963,9 +1092,15 @@ public protocol EyesonMeeting {
   func snapshot()
   func setLayout(_ layout: Swift.String)
   func setPresenter(_ isActive: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   func addLayer(image: UIKit.UIImage, index: Swift.Int?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func addLayer(url: Foundation.URL, index: Swift.Int?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func addLayer(icon: Swift.String?, title: Swift.String?, content: Swift.String?, index: Swift.Int?)
+  #endif
   func removeLayer(index: Swift.Int)
   func kick(user id: Swift.String)
   func lock()
@@ -978,11 +1113,24 @@ public protocol EyesonMeeting {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func join(_ accessKey: Swift.String, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func join(_ guestToken: Swift.String, name: Swift.String, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func join(_ accessKey: Swift.String, video: Swift.Bool, camera: AVFoundation.AVCaptureDevice.Position, videoMuted: Swift.Bool, audioMuted: Swift.Bool, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func join(_ guestToken: Swift.String, name: Swift.String, video: Swift.Bool, camera: AVFoundation.AVCaptureDevice.Position, videoMuted: Swift.Bool, audioMuted: Swift.Bool, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func start(permalink userToken: Swift.String, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func start(permalink userToken: Swift.String, video: Swift.Bool, camera: AVFoundation.AVCaptureDevice.Position, videoMuted: Swift.Bool, audioMuted: Swift.Bool, completion: @escaping ((any EyesonSdk.EyesonMeeting)?, EyesonSdk.Eyeson.Event.Terminated?) -> Swift.Void)
+  #endif
   @objc deinit
 }
 extension EyesonSdk.Eyeson {
@@ -1008,14 +1156,20 @@ public class FoundationSecurity {
   @objc deinit
 }
 extension EyesonSdk.FoundationSecurity : EyesonSdk.CertificatePinning {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: (EyesonSdk.PinningState) -> ())
+  #endif
 }
 extension EyesonSdk.FoundationSecurity : EyesonSdk.HeaderValidator {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?
+  #endif
 }
 public protocol FrameCollectorDelegate : AnyObject {
   func didForm(event: EyesonSdk.FrameCollector.Event)
+  #if compiler(>=5.3) && $NonescapableTypes
   func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
 }
 @_hasMissingDesignatedInitializers public class FrameCollector {
   public enum Event {
@@ -1043,9 +1197,13 @@ public protocol TransportEventClient : AnyObject {
 }
 public protocol Transport : AnyObject {
   func register(delegate: any EyesonSdk.TransportEventClient)
+  #if compiler(>=5.3) && $NonescapableTypes
   func connect(url: Foundation.URL, timeout: Swift.Double, certificatePinning: (any EyesonSdk.CertificatePinning)?)
+  #endif
   func disconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> ())
+  #endif
   var usingTLS: Swift.Bool { get }
 }
 public enum SerializationError : Swift.Error {
@@ -1090,14 +1248,20 @@ public enum HttpResponse {
 public class WSCompression : EyesonSdk.CompressionHandler {
   public init()
   public func load(headers: [Swift.String : Swift.String])
+  #if compiler(>=5.3) && $NonescapableTypes
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func compress(data: Foundation.Data) -> Foundation.Data?
+  #endif
   @objc deinit
 }
 public enum SecurityErrorCode : Swift.UInt16 {
   case acceptFailed
   case pinningFailed
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt16)
+  #endif
   public typealias RawValue = Swift.UInt16
   public var rawValue: Swift.UInt16 {
     get
@@ -1108,10 +1272,14 @@ public enum PinningState {
   case failed(CoreFoundation.CFError?)
 }
 public protocol CertificatePinning : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: (EyesonSdk.PinningState) -> ())
+  #endif
 }
 public protocol HeaderValidator : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?
+  #endif
 }
 public enum FoundationTransportError : Swift.Error {
   case invalidRequest
@@ -1127,12 +1295,18 @@ public enum FoundationTransportError : Swift.Error {
   public var usingTLS: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(streamConfiguration: ((Foundation.InputStream, Foundation.OutputStream) -> Swift.Void)? = nil)
+  #endif
   @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connect(url: Foundation.URL, timeout: Swift.Double = 10, certificatePinning: (any EyesonSdk.CertificatePinning)? = nil)
+  #endif
   public func disconnect()
   public func register(delegate: any EyesonSdk.TransportEventClient)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> ())
+  #endif
   @objc open func stream(_ aStream: Foundation.Stream, handle eventCode: Foundation.Stream.Event)
 }
 public class StringHTTPHandler : EyesonSdk.HTTPHandler {
@@ -1176,25 +1350,37 @@ extension Foundation.URL {
   public var isTLSScheme: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getParts() -> EyesonSdk.URLParts?
+  #endif
 }
 extension EyesonSdk.Socket {
-  public class func tcpSocketForListen(_ port: netinet_in.in_port_t, _ forceIPv4: Swift.Bool = false, _ maxPendingConnection: Swift.Int32 = SOMAXCONN, _ listenAddress: Swift.String? = nil) throws -> EyesonSdk.Socket
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func tcpSocketForListen(_ port: _DarwinFoundation2.in_port_t, _ forceIPv4: Swift.Bool = false, _ maxPendingConnection: Swift.Int32 = SOMAXCONN, _ listenAddress: Swift.String? = nil) throws -> EyesonSdk.Socket
+  #endif
   public func acceptClientSocket() throws -> EyesonSdk.Socket
 }
 public class WSEngine : EyesonSdk.Engine, EyesonSdk.TransportEventClient, EyesonSdk.FramerEventClient, EyesonSdk.FrameCollectorDelegate, EyesonSdk.HTTPHandlerDelegate {
   public var respondToPingWithPong: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(transport: any EyesonSdk.Transport, certPinner: (any EyesonSdk.CertificatePinning)? = nil, headerValidator: any EyesonSdk.HeaderValidator = FoundationSecurity(), httpHandler: any EyesonSdk.HTTPHandler = FoundationHTTPHandler(), framer: any EyesonSdk.Framer = WSFramer(), compressionHandler: (any EyesonSdk.CompressionHandler)? = nil)
+  #endif
   public func register(delegate: any EyesonSdk.EngineDelegate)
   public func start(request: Foundation.URLRequest)
   public func stop(closeCode: Swift.UInt16 = CloseCode.normal.rawValue)
   public func forceStop()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, opcode: EyesonSdk.FrameOpCode, completion: (() -> ())?)
+  #endif
   public func connectionChanged(state: EyesonSdk.ConnectionState)
   public func didReceiveHTTP(event: EyesonSdk.HTTPEvent)
   public func frameProcessed(event: EyesonSdk.FrameEvent)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
   public func didForm(event: EyesonSdk.FrameCollector.Event)
   @objc deinit
 }
@@ -1213,10 +1399,14 @@ public class TCPTransport : EyesonSdk.Transport {
   }
   public init(connection: Network.NWConnection)
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connect(url: Foundation.URL, timeout: Swift.Double = 10, certificatePinning: (any EyesonSdk.CertificatePinning)? = nil)
+  #endif
   public func disconnect()
   public func register(delegate: any EyesonSdk.TransportEventClient)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> ())
+  #endif
   @objc deinit
 }
 @available(macOS 10.14, iOS 12.0, watchOS 5.0, tvOS 12.0, *)
@@ -1224,7 +1414,9 @@ public class TCPTransport : EyesonSdk.Transport {
 public class WebSocketServer : EyesonSdk.Server, EyesonSdk.ConnectionDelegate {
   public var onEvent: ((EyesonSdk.ServerEvent) -> Swift.Void)?
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func start(address: Swift.String, port: Swift.UInt16) -> (any Swift.Error)?
+  #endif
   public func didReceive(event: EyesonSdk.ServerEvent)
   @objc deinit
 }
@@ -1237,7 +1429,9 @@ public class ServerConnection : EyesonSdk.Connection, EyesonSdk.HTTPServerDelega
   public func didReceive(event: EyesonSdk.HTTPEvent)
   public func frameProcessed(event: EyesonSdk.FrameEvent)
   public func didForm(event: EyesonSdk.FrameCollector.Event)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
   @objc deinit
 }
 public protocol EngineDelegate : AnyObject {
@@ -1248,14 +1442,22 @@ public protocol Engine {
   func start(request: Foundation.URLRequest)
   func stop(closeCode: Swift.UInt16)
   func forceStop()
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(data: Foundation.Data, opcode: EyesonSdk.FrameOpCode, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(string: Swift.String, completion: (() -> ())?)
+  #endif
 }
 open class HttpRouter {
   public init()
   public func routes() -> [Swift.String]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func register(_ method: Swift.String?, path: Swift.String, handler: ((EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func route(_ method: Swift.String?, path: Swift.String) -> ([Swift.String : Swift.String], (EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse)?
+  #endif
   @objc deinit
 }
 extension Foundation.NSURL {
@@ -1557,16 +1759,20 @@ public func blockquote(_ closure: () -> Swift.Void)
 public func figcaption(_ closure: () -> Swift.Void)
 public func stylesheet(_ closure: () -> Swift.Void)
 public func element(_ node: Swift.String, _ closure: () -> Swift.Void)
+#if compiler(>=5.3) && $NonescapableTypes
 public func element(_ node: Swift.String, _ attrs: [Swift.String : Swift.String?] = [:], _ closure: () -> Swift.Void)
+#endif
 @_inheritsConvenienceInitializers open class HttpServer : EyesonSdk.HttpServerIO {
   public static let VERSION: Swift.String
   public init()
   public var DELETE: EyesonSdk.HttpServer.MethodRoute, PATCH: EyesonSdk.HttpServer.MethodRoute, HEAD: EyesonSdk.HttpServer.MethodRoute, POST: EyesonSdk.HttpServer.MethodRoute, GET: EyesonSdk.HttpServer.MethodRoute, PUT: EyesonSdk.HttpServer.MethodRoute
   public var delete: EyesonSdk.HttpServer.MethodRoute, patch: EyesonSdk.HttpServer.MethodRoute, head: EyesonSdk.HttpServer.MethodRoute, post: EyesonSdk.HttpServer.MethodRoute, get: EyesonSdk.HttpServer.MethodRoute, put: EyesonSdk.HttpServer.MethodRoute
+  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(path: Swift.String) -> ((EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse)? {
     get
     set
   }
+  #endif
   public var routes: [Swift.String] {
     get
   }
@@ -1576,10 +1782,12 @@ public func element(_ node: Swift.String, _ attrs: [Swift.String : Swift.String?
   public struct MethodRoute {
     public let method: Swift.String
     public let router: EyesonSdk.HttpRouter
+    #if compiler(>=5.3) && $NonescapableTypes
     public subscript(path: Swift.String) -> ((EyesonSdk.HttpRequest) -> EyesonSdk.HttpResponse)? {
       get
       set
     }
+    #endif
   }
   @objc deinit
 }
