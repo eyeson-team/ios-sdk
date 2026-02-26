@@ -34917,8 +34917,8 @@
       },
       {
         "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "EyesonSdk",
         "declAttributes": [
@@ -34927,8 +34927,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "EyesonSdk"
       },
@@ -66905,9 +66905,30 @@
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/PiP\/PiPVideoRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 589,
+      "offset": 636,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/PiP\/PiPVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 878,
+      "length": 25,
+      "value": "\"pip.samplebuffer.render\""
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/PiP\/PiPVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 944,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Features\/MediaHandler\/PiP\/PiPVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 987,
+      "length": 5,
+      "value": "90000"
     },
     {
       "filePath": "\/Users\/michaelmaier\/Development\/eyeson\/sdk\/EyesonSdk\/Network\/Websockets\/Sources\/Security\/Security.swift",
